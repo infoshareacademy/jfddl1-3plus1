@@ -1,11 +1,11 @@
 body {                                                               /*obrazek w tle */
-    background: #f39c12 url("auto_tlo.png") no-repeat top;
     backgroung-size: cover;
     margin: 0px;
     text-align: center;
 }
 header{
-    height: 900px;
+    height: 100vh;
+    background: #F39C12 url("auto_tlo.png") no-repeat top;
 
 }
 .aside {
@@ -13,12 +13,11 @@ header{
     float: left;
     margin-top: 50px;
     margin-left: 30px;
+    font-color: ffffff;
 
 
 }
-.white {
-    font-color: #FFA812;
-                       }
+
 .main{                                                 /* aside i main dzieli stronę na kontenery czy bloki*/
     width: 60%;
     float: right;
@@ -29,8 +28,9 @@ header{
 
 
 section {
-    height: 900px;
-    padding: 60px;
+    height: 100vh;
+    padding: 100px;
+    margin-top: 200px;
     text-align: left;
     font-size: 15px;
 }
@@ -69,18 +69,24 @@ li a {
 li a:hover {
     background-color: #111111;
 }
-   /*test ramki z tekstem, padding margin etc...
-.test {
-    width: 100%;
-    height: 100px;
-    padding: 20px;
-    border-color: red;
-    border-style: solid;
-       }
-                                                */
 
 
-.right{
+
+
+right{
     text-align: right;
 }
 
+.white1 {
+
+    font-color: #FFFFFF;
+}
+.red {
+    background-color: #F91E1E;
+}
+.yellow {
+    background-color: #F9F21E;
+}
+.green {
+    background-color: #1EF934;
+}
