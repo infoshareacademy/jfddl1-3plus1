@@ -84,3 +84,30 @@ li a:hover {
     text-align: right;
 }
 
+
+.list-of-pageFunction{
+    align-content: center;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+
+}
+.text-central{
+    text-align: center;
+}
+.text-central li{
+    margin: 0;
+    list-style: none;
+    display:block;
+    text-align: left;
+}
+
+.midle{
+    background-color: yellow;
+    width: 500px;
+    align-content: center;
+
+}
+.left{
+    text-align: center;
+}
