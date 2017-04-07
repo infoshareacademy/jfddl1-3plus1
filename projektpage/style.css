@@ -83,4 +83,28 @@ li a:hover {
 .right{
     text-align: right;
 }
+/*animation*/
+@keyframes changeColors {
+    0% { background-color: #0d1931;}
+    17% {background-color: deeppink}
+    30% { background-color: black;}
+    60%{ background-color: blue;}
+    78% {background-color: limegreen;}
+    100%{ background-color: #F9IEIE;}
+ }
+.anime {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: limegreen;
+    animation: changeColors 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+form{
+    padding-top: 70px;
+}
 
