@@ -1,0 +1,26 @@
+.ourteam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.ourteam div {
+    width: 40%;
+    padding: 40px;
+}
+
+.ourteam div img {
+    border-radius: 40px;
+    float: left;
+}
+.ourteam div:nth-child(2) img, .ourteam div:nth-child(4) img{
+    float: right;
+}
+
+.ourteam p, .ourteam {
+    text-align: center;
+}
+
