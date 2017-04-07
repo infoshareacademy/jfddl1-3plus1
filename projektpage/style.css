@@ -1,25 +1,28 @@
-body {                                                               /*obrazek w tle */
+body { /*obrazek w tle */
     background: #f39c12 url("auto_tlo.png") no-repeat top;
     backgroung-size: cover;
     margin: 0px;
     text-align: center;
 }
-header{
+
+header {
     height: 900px;
 
 }
+
 .aside {
     width: 40%;
     float: left;
     margin-top: 50px;
     margin-left: 30px;
 
-
 }
+
 .white {
     font-color: #FFA812;
-                       }
-.main{                                                 /* aside i main dzieli stronę na kontenery czy bloki*/
+}
+
+.main { /* aside i main dzieli stronę na kontenery czy bloki*/
     width: 60%;
     float: right;
     margin-top: 60px;
@@ -27,24 +30,24 @@ header{
 
 }
 
-
 section {
     height: 900px;
     padding: 60px;
     text-align: left;
     font-size: 15px;
 }
-nav {                                                  /*blok nawigacji*/
+
+nav { /*blok nawigacji*/
     margin: 0px;
     background-color: #000000;
-    position: fixed;                                   /* trzyma na górze strony*/
+    position: fixed; /* trzyma na górze strony*/
     display: block;
     text-align: center;
-    width: 100%;                                       /*szerokość menu na 100 % strony*/
+    width: 100%; /*szerokość menu na 100 % strony*/
 }
 
 ul {
-    list-style:none;
+    list-style: none;
     margin: 0;
     padding: 0;
     background-color: #333333;
@@ -52,8 +55,8 @@ ul {
 }
 
 li {
-    display:inline-block; /* robi  menu w poziomie*/
-    align:center;
+    display: inline-block; /* robi  menu w poziomie*/
+    align: center;
 
 }
 
@@ -63,19 +66,25 @@ li a {
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    
+
 }
 
 li a:hover {
     background-color: #111111;
 }
-   /*test ramki z tekstem, padding margin etc...
+
+/*test ramki z tekstem, padding margin etc...
 .test {
-    width: 100%;
-    height: 100px;
-    padding: 20px;
-    border-color: red;
-    border-style: solid;
-       }
-                                                */
+ width: 100%;
+ height: 100px;
+ padding: 20px;
+ border-color: red;
+ border-style: solid;
+    }
+                                             */
+
+
+
+
+/* KOD RAFAL C*/
 
