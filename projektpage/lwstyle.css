@@ -1,0 +1,89 @@
+body {                                                               /*obrazek w tle */
+    backgroung-size: cover;
+    margin: 0px;
+    text-align: center;
+}
+header{
+    height: 100vh;
+    background: #F39C12 url("auto_tlo.png") no-repeat top;
+
+}
+.aside {
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-color: ffffff;
+
+
+}
+
+.main{                                                 /* aside i main dzieli stronę na kontenery czy bloki*/
+    width: 60%;
+    float: right;
+    margin-top: 60px;
+    margin-right: 30px;
+
+}
+
+
+section {
+    height: 100vh;
+    padding: 100px;
+    text-align: left;
+    font-size: 15px;
+}
+nav {                                                  /*blok nawigacji*/
+    margin: 0px;
+    background-color: #000000;
+    position: fixed;                                   /* trzyma na górze strony*/
+    display: block;
+    text-align: center;
+    width: 100%;                                       /*szerokość menu na 100 % strony*/
+}
+
+.nav    ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+
+}
+
+.nav li {
+    display:inline-block; /* robi  menu w poziomie*/
+    align:center;
+
+}
+
+.nav li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+
+}
+/*odpowiada za stan linku po najechaniu kursorem*/
+.nav li a:hover {
+    background-color: #111111;
+}
+
+
+right{
+    text-align: right;
+}
+
+.white1 {
+
+    font-color: #FFFFFF;
+}
+.red {
+    background-color: #F91E1E;
+}
+.yellow {
+    background-color: #F9F21E;
+}
+.green {
+    background-color: #1EF934;
+}
