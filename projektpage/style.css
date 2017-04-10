@@ -1,5 +1,5 @@
 body {                                                               /*obrazek w tle */
-    background: #f39c12 url("auto_tlo.png") no-repeat top;
+    background: #f39c12 url("images/auto_tlo.png") no-repeat top;
     backgroung-size: cover;
     margin: 0px;
     text-align: center;
