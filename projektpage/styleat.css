@@ -66,7 +66,7 @@ input {
 }
 
 .formdiv {
-    background-color: #333333;
+    background-color: #f39c12;
     display: inline-block;
     text-align: center;
     width: 50%;
@@ -74,7 +74,24 @@ input {
 
 .textarea {
     width: 300px;
-    height: 100px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+}
+
+.background-flag {
+    background-image: url("https://img.clipartfest.com/cd09b44cabef5c620e80791b601a4b40_race-flags-clip-art-clipart-checkered-flag_2012-909.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.background-invert {
+    transform: rotate(180deg);
+}
+
+.footer {
+    background-color: #f39c12;
+    font-family: 'Lato', sans-serif;
 }
 
 

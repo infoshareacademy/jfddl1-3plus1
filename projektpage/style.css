@@ -17,7 +17,7 @@ header{
 
 }
 .white {
-    font-color: #FFA812;
+    font-color: #FFA812==;
                        }
 .main{                                                 /* aside i main dzieli stronę na kontenery czy bloki*/
     width: 60%;
@@ -30,7 +30,6 @@ header{
 
 section {
     height: 900px;
-    padding: 60px;
     font-size: 15px;
 }
 nav {                                                  /*blok nawigacji*/
@@ -40,13 +39,14 @@ nav {                                                  /*blok nawigacji*/
     display: block;
     text-align: center;
     width: 100%;                                       /*szerokość menu na 100 % strony*/
+    font-family: 'Lato', sans-serif;
 }
 
 ul {
     list-style:none;
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    background-color: #f39c12;
 
 }
 
