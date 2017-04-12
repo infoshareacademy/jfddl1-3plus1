@@ -31,7 +31,7 @@ section {
     height: 100vh;
     padding: 100px;
     text-align: left;
-    font-size: 15px;
+    font-size: 1.5em;
 }
 nav {                                                  /*blok nawigacji*/
     margin: 0px;
