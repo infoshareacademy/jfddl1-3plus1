@@ -1,5 +1,5 @@
 body {                                                               /*obrazek w tle */
-    background: #f39c12 url("images/auto_tlo.png") no-repeat top;
+    background: url("images/auto_tlo.png") no-repeat top;
     backgroung-size: cover;
     margin: 0px;
     text-align: center;
@@ -31,7 +31,6 @@ header{
 section {
     height: 900px;
     padding: 60px;
-    text-align: left;
     font-size: 15px;
 }
 nav {                                                  /*blok nawigacji*/
