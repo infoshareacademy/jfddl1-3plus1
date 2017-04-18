@@ -1,24 +1,11 @@
 .list-of-pageFunction {
     text-align: center;
-    background-color: #333333 ;
-    opacity: 70;
+    background-color: #333333;
     color: white;
     align-content: center;
     border-radius: 20px;
 
 }
-
-.menu{
-    float: right;
-
-
-}
-.menuZnak{
-    padding: 50px;
-
-}
-
-
 
 .midle {
     width: 300px;
@@ -57,7 +44,9 @@
 }
 
 
-
+.clear{
+    clear: both;
+}
 
 .product-cont {
     display: flex;
