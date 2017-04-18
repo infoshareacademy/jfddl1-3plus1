@@ -1,0 +1,104 @@
+body {                                                               /*obrazek w tle */
+    backgroung-size: cover;
+    margin: 0px;
+    text-align: center;
+}
+header{
+    height: 100%
+    width: 100vw;
+
+}
+iframe{
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    position: absolute;
+
+}
+.white {
+    font-color: #FFA812;
+                       }
+
+
+section {
+    height: 900px;
+    padding: 0px;
+    text-align: left;
+    font-size: 15px;
+}
+.abo {
+    height: 100vh;
+    text-align: left;
+    font-size: 15px;
+    padding-top: px;
+    background-image: url("../images/flag_background.png");
+
+}
+
+
+.nav     {                                                  /*blok nawigacji*/
+    margin: 0px;
+    background-color: #000000;
+    position: fixed;                                   /* trzyma na górze strony*/
+    display: block;
+    text-align: center;
+    width: 100%;                                       /*szerokość menu na 100 % strony*/
+}
+
+.nav ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+
+}
+
+.nav li {
+    display:inline-block; /* robi  menu w poziomie*/
+    text-align:center;
+
+}
+
+.nav li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+.nav li a:hover {
+    background-color: #111111;
+}
+
+.right{
+    text-align: right;
+}
+
+
+/*animation*/
+@keyframes changeColors {
+    0% { background-color: #0d1931;}
+    17% {background-color: deeppink}
+    30% { background-color: black;}
+    60%{ background-color: blue;}
+    78% {background-color: limegreen;}
+    100%{ background-color: #f91E1E;}
+ }
+.anime {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: limegreen;
+    animation: changeColors 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+form{
+    padding-top: 70px;
+}
+

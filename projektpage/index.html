@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Portal do wyszukiwania części samochodowych.</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleat.css">
-    <link rel="stylesheet" href="RC.Style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleat.css">
+    <link rel="stylesheet" href="css/RC.Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 </head>
 <body>
 
 
 <header>
-    <nav>
+    <div class="nav">
         <ul>
             <li><a href="index.html">START</a></li>
             <li><a href="#about">O NAS</a> </li>
@@ -21,8 +23,7 @@
             <li><a href="#contact">KONTAKT</a></li>
         </ul>
 
-
-    </nav>
+    </div>
 
          <div class="aside">
               <h1><a name="start"></a> Delear Cię kasuje za części?</h1>
@@ -40,7 +41,13 @@
 
 <a name="about"></a>
 <section>
-        <h1>DLACZEGO MY? DLACZEGO WARTO KUPOWAĆ U NAS?</h1>
+    <iframe src="https://www.youtube.com/embed/ecCU6lxdep8?rel=0&amp;controls=0&amp;showinfo=0?ecver=1;autoplay=1"></iframe>
+
+</section>
+
+
+<section class="abo">
+    <h1>DLACZEGO MY? DLACZEGO WARTO KUPOWAĆ U NAS?</h1>
 
 
 
@@ -60,30 +67,12 @@
     <p><b>Darmowa wymiana towaru</b> - jeśli będziesz chciał wymienić towar na inny lub się pomyliłeś wymienimy towar na nasz koszt.</p>
     <p>U nas dajemy <b>14 dniowy termin</b> na zwrot towaru. Pamiętaj tego nie dostaniesz w zwykłym sklepie motoryzacyjnym czy u mechanika.</p>
     <p>Nieważne co kupujesz, Przebijemy każdą cenę! Ponad 4 500 000 szt. NOWYCH  części tylko o sprawdzonej jakości - na półkach naszych magazynów oraz sklepu online mightycars znajdziesz ponad <b>4 500 000 szt. pozycji</b>, pochodzących tylko i wyłącznie od sprawdzonych producentów.</p>
-
-
-        <form action="/form" id="form">
-            email:<br>
-            <input type="text" value="">
-            <br>
-            Imię:<br>
-            <input type="text" name="lastname" value="">
-            <br><br>
-            <input type="submit" value="Wyślij">
-        </form>
-        <p> <b>Wysyłymy newsletter na podany adres email z aktualnymi promocjami i nowościami naszej firmy!</b></p>
-
-
-
-
-
-
 </section>
+<a name="product" ></a>
 
 <section>
 
 
-    <a name="product" ></a>
 
     <div class="product-cont flex-box">
 
@@ -119,45 +108,64 @@
     </div>
 
 </section>
+<section class="abo">
 
+</section>
+<a name="team"></a>
 
+    <!--Nasz team-->
 <section>
 
-    <a name="team"></a>
-
+<div>
     <div class="ourteam">
         <div>
-            <img src="Images/adriant.jpg" height="200" width="200"/>
+            <img src="images/adriant.jpg" height="200" width="200"/>
             <h2>Adrian Tarasiuk</h2>
-            <p>jakiś tekst jakiś tekst jakiś tekst</p>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
         </div>
         <div>
-            <img src="Images/lukaszw.jpg" height="200" width="200"/>
+            <img src="images/lukaszw.jpg" height="200" width="200"/>
             <h2>Łukasz Walczyński</h2>
-            <p>jakiś tekst jakiś tekst jakiś tekst</p>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
         </div>
         <div>
-            <img src="Images/rafalc.jpg" height="200" width="200"/>
+            <img src="images/rafalc.jpg" height="200" width="200"/>
             <h2>Rafał Ciesielczuk</h2>
-            <p>jakiś tekst jakiś tekst jakiś tekst</p>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
         </div>
         <div>
-            <img src="Images/lukaszf.jpg" height="200" width="200"/>
+            <img src="images/lukaszf.jpg" height="200" width="200"/>
             <h2>Łukasz Fijałkowski</h2>
-            <p>jakiś tekst jakiś tekst jakiś tekst</p>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
         </div>
     </div>
+</div>
 
 </section>
 
-</main>
+
+<a name="contact"></a>
 <section>
 <footer>
 
-    <p class="right">
-        <a name="contact"></a> Made by 3plus1
-    </p>
-</footer>
+    <div class="formdiv">
+        <form class="contactform">
+            <h3>Czekamy na każde Twoje pytanie!<br>Wiemy, że nie możesz doczekać się premiery, więc powiadomimy Cię o tym mailowo. :)</h3>
+
+            <label>Imię i nazwisko</label>
+            <input name="name" placeholder="Twoje imię i naziwisko"><br>
+
+            <label>email</label>
+            <input name="email" type="email" placeholder="Twój email"><br>
+
+            <label>Wiadomość</label>
+            <input class="textarea" name="message" placeholder="Twoja wiadomość"><br>
+
+            <input class="button" name="SUBMIT" type="submit" value="WYŚLIJ">
+        </form>
+    </div>
+
+
 </section>
 
 </body>
