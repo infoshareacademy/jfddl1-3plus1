@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b522399-6032-4ef7-97b6-eebf3a8a8696" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jfddl1-3plus1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projektpage/css/lwstyle.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektpage/css/style.css" afterPath="$PROJECT_DIR$/projektpage/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektpage/index.html" afterPath="$PROJECT_DIR$/projektpage/index.html" />
     </list>
     <list id="f5c00116-3097-4e27-b33f-f1ad70f1be37" name="dodane dwie sekcje (cherry picked from commit 1797ccf)" comment="połączono z Adrianem&#10;(cherry picked from commit 1797ccf)" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,33 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projektpage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-              <folding>
-                <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jfddl1-3plus1/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="82" lean-forward="false" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jfddl1-3plus1/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="2357">
+              <caret line="264" column="34" lean-forward="false" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -138,20 +119,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projektpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jfddl1-3plus1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jfddl1-3plus1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jfddl1-3plus1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,7 +250,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22588000" />
+    <option name="totallyTimeSpent" value="22951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,10 +268,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34175533" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3303342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3303342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3084833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34175533" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -357,11 +324,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/projektpage/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/index.html" />
+    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/index.html" />
+    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
+    <entry file="file://$PROJECT_DIR$/projektpage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -370,9 +349,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -386,36 +363,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
-    <entry file="file://$PROJECT_DIR$/projektpage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/index.html" />
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/index.html" />
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
-    <entry file="file://$PROJECT_DIR$/projektpage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -423,9 +371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
           <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -434,9 +380,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -446,9 +390,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,9 +419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -488,9 +428,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -533,11 +471,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projektpage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-          <folding>
-            <marker date="1492500701956" expanded="true" signature="6651:6661" ph="..." />
-          </folding>
+        <state relative-caret-position="2357">
+          <caret line="264" column="34" lean-forward="false" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfddl1-3plus1/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="82" lean-forward="false" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfddl1-3plus1/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
