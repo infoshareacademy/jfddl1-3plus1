@@ -137,18 +137,22 @@ p {
 span {
     color: #f39c12;
 }
-                                    /*   zamieniłem class img-circle
-.img-radius {
-    border-radius: 150px;            */
 
-/*OUR TEAM CSS*/
-/* navigation */
+.background-flag {
+    background-image: url("https://img.clipartfest.com/cd09b44cabef5c620e80791b601a4b40_race-flags-clip-art-clipart-checkered-flag_2012-909.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
 
+.background-invert {
+    transform: rotate(180deg);
+}
 
 
 .section1 {
-    height: 95vh;
-    padding-top: 25vh;
+    height: 100vh;
+    padding-top: 15vh;
     text-align: center;
 }
 
