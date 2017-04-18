@@ -3,13 +3,15 @@ body {                                                               /*obrazek w
     margin: 0px;
     text-align: center;
 }
+
 header{
     height: 100vh;
-    background: #F39C12 url("auto_tlo.png") no-repeat top;
+    background-image: #F39C12 url("auto_tlo.png") no-repeat top;
 
 }
+
 .aside {
-    width: 40%;
+    width: 40vh;
     float: left;
     margin-top: 50px;
     margin-left: 30px;
@@ -19,13 +21,12 @@ header{
 }
 
 .main{                                                 /* aside i main dzieli stronę na kontenery czy bloki*/
-    width: 60%;
+    width: 60vh;
     float: right;
     margin-top: 60px;
     margin-right: 30px;
 
 }
-
 
 section {
     height: 100vh;
@@ -33,6 +34,7 @@ section {
     text-align: left;
     font-size: 15px;
 }
+
 nav {                                                  /*blok nawigacji*/
     margin: 0px;
     background-color: #000000;
@@ -69,7 +71,6 @@ nav {                                                  /*blok nawigacji*/
     background-color: #111111;
 }
 
-
 right{
     text-align: right;
 }
@@ -78,12 +79,15 @@ right{
 
     font-color: #FFFFFF;
 }
+
 .red {
     background-color: #F91E1E;
 }
+
 .yellow {
     background-color: #F9F21E;
 }
+
 .green {
     background-color: #1EF934;
 }
