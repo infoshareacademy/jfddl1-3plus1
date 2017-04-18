@@ -10,6 +10,27 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
 
+
+    <!----------------------------------------WSTAWIAM FAVICONE-(Rafał)---------------------------->
+    <!--------------------------------------------------------------------------------------------->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 
@@ -56,7 +77,40 @@
 <div class="container-fluid">
     <div class="section1 background-flag background-invert img-responsive"></div>
 
+
+<div class="modal fade" id="modal-newsletter" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="modal-label">Zapisz się, nie przegap kolejnych tekstów!</h4>
+            </div>
+            <form target="popupwindow" method="post" action="http://feedburner.google.com/fb/a/mailverify"
+                  class="widget_rss_subscription">
+                <div class="modal-body">
+                    <ul>
+                        <li>Powiadomienia o nowych artykułach</li>
+                        <li>ŻADNEGO SPAMU!</li>
+                        <li>Anulowanie w każdym momencie</li>
+                    </ul>
+                    <p>Wpisz swojego maila i bądź na bieżąco!</p>
+                    <input type="text" name="email" placeholder="Twój email" class="form-control">
+                    <input type="hidden" name="uri" value="webmastah">
+                    <input type="hidden" value="pl_PL" name="loc">
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" value="Subscribe" class="btn btn-success">Zapisz mnie!</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
+
+
+
+</div>
+
 
 <!--PRODUCT INFO-->
 <a id="about"></a>
@@ -82,12 +136,13 @@
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                    <span>  GWARANCJA NAJNIŻSZEJ CENY!</span>                           </a>
+                                    <span>  GWARANCJA NAJNIŻSZEJ CENY!</span> </a>
                             </h4>
                         </div>
                         <div id="collapse2" class="panel-collapse collapse">
                             <div class="panel-body">
-                                Dajemy gwarancję najniższych cen. Jeśli znajdziesz tańszą ofertę i kupisz u nas zwracamy 105% różnicy.
+                                Dajemy gwarancję najniższych cen. Jeśli znajdziesz tańszą ofertę i kupisz u nas zwracamy
+                                105% różnicy.
                             </div>
                         </div>
                     </div>
@@ -120,13 +175,13 @@
                         <div id="collapse4" class="panel-collapse collapse">
                             <div class="panel-body">
                                 Fachowe doradztwo - 11 pasjonatów motoryzacji, jednocześnie mechaników z zawodu.
-                                W sumie 90 lat doświadczenia! Rocznie zaspokajamy ponad 80 tys. potrzeb naszych klientów.
+                                W sumie 90 lat doświadczenia! Rocznie zaspokajamy ponad 80 tys. potrzeb naszych
+                                klientów.
                                 Nie zwlekaj – zapytaj profesjonalistów. Dobierzemy idealny produkt dla Ciebie!
 
                             </div>
                         </div>
                     </div>
-
                     <!-- Panel 4. -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -138,13 +193,16 @@
                         </div>
                         <div id="collapse5" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <p class="text-left">Gwarantowane bezpieczeństwo - Bezpieczeństwo na najwyższym poziomie.
+                                <p class="text-left">Gwarantowane bezpieczeństwo - Bezpieczeństwo na najwyższym
+                                    poziomie.
                                     Pakowanie przesyłek mamy opanowane do perfekcji. </p>
                                 <p class="text-left">Oceny 9.9/10 za dostawę oraz liczne nagrody są tego dowodem.
                                     Wybierz bezpieczeństwo potwierdzone przez klientów!
-                                    Wszystkie produkty pakujemy bezpiecznie, stosujemy najlepszy wypełniacz przesyłek FATPAK,
-                                    każda przesyłka jest starannie  pakowana  aby w transporcie nic im się nie stało.
-                                    Jako jedynie na rynku pakujemy towar w dodatkowe pudełko zbiorcze wypelnione wypełniaczem przesyłek.</p>
+                                    Wszystkie produkty pakujemy bezpiecznie, stosujemy najlepszy wypełniacz przesyłek
+                                    FATPAK,
+                                    każda przesyłka jest starannie pakowana aby w transporcie nic im się nie stało.
+                                    Jako jedynie na rynku pakujemy towar w dodatkowe pudełko zbiorcze wypelnione
+                                    wypełniaczem przesyłek.</p>
                             </div>
                         </div>
                     </div>
@@ -159,9 +217,11 @@
                         </div>
                         <div id="collapse6" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <p class="text-left">Darmowa wymiana towaru- jeśli będziesz chciał wymienić towar na inny lub się pomyliłeś wymienimy towar na nasz koszt.</p>
+                                <p class="text-left">Darmowa wymiana towaru- jeśli będziesz chciał wymienić towar na
+                                    inny lub się pomyliłeś wymienimy towar na nasz koszt.</p>
                                 <p class="text-left">U nas dostaniesz <span>14 dniowy termin</span> na zwrot towaru.</p>
-                                <p class="text-left">Pamiętaj tego nie dostaniesz w zwykłym sklepie motoryzacyjnym czy u mechanika.</p>
+                                <p class="text-left">Pamiętaj tego nie dostaniesz w zwykłym sklepie motoryzacyjnym czy u
+                                    mechanika.</p>
                             </div>
                         </div>
                     </div>
@@ -182,7 +242,8 @@
         <div class="row">
             <div class="col-xs-6 col-xs-push-3 text-center">
                 <img src="images/Ikona_informacja.png" class="img-responsive-info">
-            </div></div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-xs-6 col-xs-push-3 text-center">
 
@@ -192,10 +253,19 @@
 
                 <ul class="list-group btn-group-lg text-left">
 
-                    <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-success"> Wyszukiwanie według określonych kryteriów </li>
-                    <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-info"> Wyświetlenie wynikow na stronie</li>
-                    <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-warning"> Możliwość złożenia zamówienia</li>
-                    <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-danger"> Formularz do bezpośredniego kontaktu e-mail</li>
+                    <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-success"> Wyszukiwanie
+                        według określonych kryteriów
+                    </li>
+                    <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-info"> Wyświetlenie
+                        wynikow na stronie
+                    </li>
+                    <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-warning"> Możliwość
+                        złożenia zamówienia
+                    </li>
+                    <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-danger"> Formularz do
+                        bezpośredniego kontaktu e-mail
+                    </li>
+                   <!--komentarz RC-->
 
                 </ul>
                 <h2><span> &</span></h2>
@@ -214,7 +284,7 @@
 
     <div class="container">
         <div class="row">
-            <h1>"NASZ <span>ZESPÓŁ" </span></h1>
+            <h1>NASZ <span>ZESPÓŁ</span></h1>
             <div class="col-lg-3 col-md-6 col-xs-12">
                 <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
                 <h2>Adrian Tarasiuk</h2>
@@ -263,7 +333,8 @@
                             <input type="text" class="form-control" id="exampleInputName" placeholder="Twoje Imię">
                         </div>
                         <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Podaj adres Email">
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                               placeholder="Podaj adres Email">
                     </div>
 
                     <div class="checkbox">
@@ -281,26 +352,28 @@
             </div>
         </div>   </div>
 
-    <!--CONTACT-->
+        <!--CONTACT-->
 
-    <!--FOOTER-->
+        <!--FOOTER-->
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                Copyright 2017 by 3plus1
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    Copyright 2017 by 3plus1
+                </div>
             </div>
 
-        </div>
-    </footer>
+        </footer>
+    </div>
 </div>
+
 
 <!--FOOTER-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery-3.2.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
