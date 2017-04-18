@@ -2,171 +2,330 @@
 <html lang="pl" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Portal do wyszukiwania części samochodowych.</title>
+    <title>3plus1 projekt</title>
+?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styleat.css">
-    <link rel="stylesheet" href="css/RC.Style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
 </head>
+
+
 <body>
 
-
-<header>
-    <div class="nav">
-        <ul>
-            <li><a href="index.html">START</a></li>
-            <li><a href="#about">O NAS</a> </li>
-            <li><a href="#product">PRODUKT</a></li>
-            <li><a href="#team">DRUŻYNA</a></li>
-            <li><a href="#contact">KONTAKT</a></li>
-        </ul>
-
-    </div>
-
-         <div class="aside">
-              <h1><a name="start"></a> Delear Cię kasuje za części?</h1>
-              <h3>Płacisz jak za bitcoiny?</h3>
-              <h2>Wyszukaj części do swojej bryki u nas</h2>
-              <h1>a kupuj gdzie chcesz!</h1>
-              <p class="white">Super wyje....nyy portal dla poszukiwaczy części.</p>
-
-         </div>
-
-</header>
-
-
-
-
-<a name="about"></a>
-<section>
-    <iframe src="https://www.youtube.com/embed/ecCU6lxdep8?rel=0&amp;controls=0&amp;showinfo=0?ecver=1;autoplay=1"></iframe>
-
-</section>
-
-
-<section class="abo">
-    <h1>DLACZEGO MY? DLACZEGO WARTO KUPOWAĆ U NAS?</h1>
-
-
-
-    <h2>Powodów jest wiele. Najważniejsze to:</h2>
-<ol>
-    <li>Dajemy gwarancję najniższych cen. Jeśli znajdziesz tańszą ofertę i kupisz u nas zwracamy 105% różnicy.</li>
-    <li>10 lat doświadczenia - 10 lat na rynku, ponad 700 tys. zrealizowanych zamówień, 99% zadowolonych klientów – taki wynik zobowiązuje.</li>
-</ol>
-    <h3><a class="anime"
-            href=index.html>Zaufaj faktom! Wybierz mightycars.pl!</a></h3>
-    <p> Fachowe doradztwo - 11 pasjonatów motoryzacji, jednocześnie mechaników z zawodu. W sumie 90 lat doświadczenia! Rocznie zaspokajamy ponad 80 tys. potrzeb naszych klientów. Nie zwlekaj – zapytaj profesjonalistów. Dobierzemy idealny produkt dla Ciebie!</p>
-    <h4>Infolinia: 1234567890, sklep@mightycars.pl wyślij newsletter za jednym <a href="#form">klinięciem!</a>
-    </h4>
-            Najwyższy współczynnik 87% wszystkich zamówień realizujemy od ręki bezpośrednio z naszych magaznów.
-    <p>Gwarantowane bezpieczeństwo - Bezpieczeństwo na najwyższym poziomie. Pakowanie przesyłek mamy opanowane do perfekcji. Oceny 9.9/10 za dostawę oraz liczne nagrody są tego dowodem.</p>
-    <p>Wybierz bezpieczeństwo potwierdzone przez klientów! Wszystkie produkty pakujemy bezpiecznie, stosujemy najlepszy wypełniacz przesyłek FATPAK, każda przesyłka jest starannie  pakowana  aby w transporcie nic im się nie stało. Jako jedynie na rynku pakujemy towar w dodatkowe pudełko zbiorcze wypelnione wypełniaczem przesyłek.</p>
-    <p><b>Darmowa wymiana towaru</b> - jeśli będziesz chciał wymienić towar na inny lub się pomyliłeś wymienimy towar na nasz koszt.</p>
-    <p>U nas dajemy <b>14 dniowy termin</b> na zwrot towaru. Pamiętaj tego nie dostaniesz w zwykłym sklepie motoryzacyjnym czy u mechanika.</p>
-    <p>Nieważne co kupujesz, Przebijemy każdą cenę! Ponad 4 500 000 szt. NOWYCH  części tylko o sprawdzonej jakości - na półkach naszych magazynów oraz sklepu online mightycars znajdziesz ponad <b>4 500 000 szt. pozycji</b>, pochodzących tylko i wyłącznie od sprawdzonych producentów.</p>
-</section>
-<a name="product" ></a>
-
-<section>
-
-
-
-    <div class="product-cont flex-box">
-
-        <div class="left-side">
-            <img src="images/Ikona_informacja.png" width="50" height="50">
-        </div>
-
-        <div class="right-side">
-            <h4>PRODUKT</h4>
-        </div>
-    </div>
-
-    <div class="down" >
-        <i> Informacje o stronie</i>
-    </div>
-
-
-    <div class="list-of-pageFunction">
-        <p>&</p>
-
-        <div class="midle">
-            <ul class="text-central">
-                <li>Wyszukiwanie według określonych kryteriów </li>
-                <li>Wyświetlenie wynikow na stronie</li>
-                <li>Możliwość złożenia zamówienia</li>
-                <li>Formularz do bespośredniego kontaktu e-mail</li>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"><span>3 PLUS 1</span></a>
+            </div>
+        <div class="collapse navbar-collapse" id="mynavbar-content">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#top">Start</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#product">Produkt</a></li>
+                <li><a href="#team">Drużyna</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
-        </div >
+        </div>
+    </div>
+</nav>
+<!--START-->
+<a id="top"></a>
+<div class="section1">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6 col-xs-12">
+            <h1><span> Delear kasuje Cię za części</span>
+            <br>jak za<span> złoto?</span></h1>
+            <h1>Tylko u nas - części do <span> twojej bryki w niskich cenach.</span></h1>
+            <a href="#contact" class="btn btn-info btn-lg btn-block">SPRAWDŻ TERAZ!</a>        </div>
+        <div class="col-lg-6 col-xs-12">
+            <img class="img-responsive" src="images/auto_tlo.png"/>
+        </div>
+    </div>
+    </div>
+</div>
+<!--START-->
+
+<div class="modal fade" id="modal-newsletter" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="modal-label">Zapisz się, nie przegap kolejnych tekstów!</h4>
+        </div>
+        <form target="popupwindow" method="post" action="http://feedburner.google.com/fb/a/mailverify" class="widget_rss_subscription">
+            <div class="modal-body">
+                <ul>
+                    <li>Powiadomienia o nowych artykułach</li>
+                    <li>ŻADNEGO SPAMU!</li>
+                    <li>Anulowanie w każdym momencie</li>
+                </ul>
+                <p>Wpisz swojego maila i bądź na bieżąco!</p>
+                <input type="text" name="email" placeholder="Twój email" class="form-control">
+                <input type="hidden" name="uri" value="webmastah">
+                <input type="hidden" value="pl_PL" name="loc">
+            </div>
+            <div class="modal-footer">
+                <button type="submit" value="Subscribe" class="btn btn-success">Zapisz mnie!</button>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
 
 
-        <p>&</p>
+
+
+
+
+
+
+
+
+
+<!--PRODUCT INFO-->
+<a id="about"></a>
+    <div class="section1">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12">
+
+                <div class="panel-group" id="accordion">
+                    <!-- TYTUł -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h1 class="panel-title">
+                                <a data-toggle="collapse" class="h1" data-parent="#accordion">
+                                    DLACZEGO MY? DLACZEGO WARTO KUPOWAĆ U NAS?</a>
+                            </h1>
+                        </div>
+
+                    </div>
+                    <!-- Panel 1. -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    <span>  GWARANCJA NAJNIŻSZEJ CENY!</span>                           </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Dajemy gwarancję najniższych cen. Jeśli znajdziesz tańszą ofertę i kupisz u nas zwracamy 105% różnicy.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Panel 2. -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    DOŚWIADCZENIE W SPRZEDAŻY!
+
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                10 lat doświadczenia - 10 lat na rynku, ponad 700 tys. zrealizowanych zamówień,
+                                99% zadowolonych klientów – taki wynik zobowiązuje.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Panel 3. -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                    <span>  FACHOWE DORADZTWO!</span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Fachowe doradztwo - 11 pasjonatów motoryzacji, jednocześnie mechaników z zawodu.
+                                W sumie 90 lat doświadczenia! Rocznie zaspokajamy ponad 80 tys. potrzeb naszych klientów.
+                                Nie zwlekaj – zapytaj profesjonalistów. Dobierzemy idealny produkt dla Ciebie!
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Panel 4. -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                    BEZPIECZEŃSTWO!
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p class="text-left">Gwarantowane bezpieczeństwo - Bezpieczeństwo na najwyższym poziomie.
+                                    Pakowanie przesyłek mamy opanowane do perfekcji. </p>
+                                <p class="text-left">Oceny 9.9/10 za dostawę oraz liczne nagrody są tego dowodem.
+                                    Wybierz bezpieczeństwo potwierdzone przez klientów!
+                                    Wszystkie produkty pakujemy bezpiecznie, stosujemy najlepszy wypełniacz przesyłek FATPAK,
+                                    każda przesyłka jest starannie  pakowana  aby w transporcie nic im się nie stało.
+                                    Jako jedynie na rynku pakujemy towar w dodatkowe pudełko zbiorcze wypelnione wypełniaczem przesyłek.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Panel 5. -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                    <span> DARMOWA WYMIANA TOWARU!</span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p class="text-left">Darmowa wymiana towaru- jeśli będziesz chciał wymienić towar na inny lub się pomyliłeś wymienimy towar na nasz koszt.</p>
+                                <p class="text-left">U nas dostaniesz <span>14 dniowy termin</span> na zwrot towaru.</p>
+                                <p class="text-left">Pamiętaj tego nie dostaniesz w zwykłym sklepie motoryzacyjnym czy u mechanika.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
 
     </div>
+    </div>
 
-</section>
-<section class="abo">
+    <a id="product"></a>
+    <div class="section1">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-xs-push-3 text-center">
+                <img src="images/Ikona_informacja.png" class="img-responsive-info">
+            </div></div>
+        <div class="row">
+            <div class="col-xs-6 col-xs-push-3 text-center">
 
-</section>
-<a name="team"></a>
+            <h2>PRODUKT</h2>
+        <i> Informacje o stronie</i>
+    <h2><span> &</span></h2>
 
-    <!--Nasz team-->
-<section>
+    <ul class="list-group btn-group-lg text-left">
 
-<div>
-    <div class="ourteam">
-        <div>
-            <img src="images/adriant.jpg" height="200" width="200"/>
-            <h2>Adrian Tarasiuk</h2>
-            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
+        <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-success"> Wyszukiwanie według określonych kryteriów </li>
+        <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-info"> Wyświetlenie wynikow na stronie</li>
+        <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-warning"> Możliwość złożenia zamówienia</li>
+        <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-danger"> Formularz do bezpośredniego kontaktu e-mail</li>
+
+    </ul>
+                <h2><span> &</span></h2>
+
+   </div>
+
+    </div>
         </div>
-        <div>
-            <img src="images/lukaszw.jpg" height="200" width="200"/>
+    </div>
+
+<!--OUR TEAM-->
+<a id="team"></a>
+
+    <div class="section1">
+
+        <div class="container">
+            <div class="row">
+                <h1>NASZ <span>ZESPÓŁ</span></h1>
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
+                    <h2>Adrian Tarasiuk</h2>
+                    <h3>Founder</h3>
+                    <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <img class="img-responsive center-block img-circle-team" src="images/rafalc.jpg"/>
+                    <h2>Rafał Ciesielczuk</h2>
+                    <h3>Founder</h3>
+                    <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <img class="img-responsive img-circle-team center-block" src="images/lukaszw.jpg"/>
             <h2>Łukasz Walczyński</h2>
-            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
+            <h3>Founder</h3>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
-        <div>
-            <img src="images/rafalc.jpg" height="200" width="200"/>
-            <h2>Rafał Ciesielczuk</h2>
-            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
-        </div>
-        <div>
-            <img src="images/lukaszf.jpg" height="200" width="200"/>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="img-responsive img-circle-team center-block" src="images/lukaszf.jpg"/>
             <h2>Łukasz Fijałkowski</h2>
-            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko zgadywana w wieku może Białopiotrowiczowi samemu odmówił! Bo nie było ogrodniczki. Tylko co porabiał? Każdy, gdzie w pułku gadano, jak na kształt deski.</p>
+            <h3>Founder</h3>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
     </div>
 </div>
+</div>
+<!--OUR TEAM-->
 
-</section>
+<!--CONTACT-->
+<a id="contact"></a>
 
+<div class="section1">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <h2>Newsletter</h2>
+                <h3> Pierwszy się dowiesz zanim wystartujemy</h3>
+                <form role="form">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="exampleInputName">Podaj Imię</label>
+                            <input type="text" class="form-control" id="exampleInputName" placeholder="Twoje Imię">
+                        </div>
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Podaj adres Email">
+                    </div>
 
-<a name="contact"></a>
-<section>
-<footer>
+                   <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Zgadzam się !
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Wyślij!</button>
+                </form>
 
-    <div class="formdiv">
-        <form class="contactform">
-            <h3>Czekamy na każde Twoje pytanie!<br>Wiemy, że nie możesz doczekać się premiery, więc powiadomimy Cię o tym mailowo. :)</h3>
+            </div></div>
+<div class="row">
+    <div class="col-xs-12">
+                        <h3>Linki do społecznościówek</h3>
+                    </div>
+                </div>
 
-            <label>Imię i nazwisko</label>
-            <input name="name" placeholder="Twoje imię i naziwisko"><br>
+ <!--CONTACT-->
 
-            <label>email</label>
-            <input name="email" type="email" placeholder="Twój email"><br>
+<!--FOOTER-->
 
-            <label>Wiadomość</label>
-            <input class="textarea" name="message" placeholder="Twoja wiadomość"><br>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                Copyright 2017 by 3plus1
+            </div>
+        </div>
+    </footer>
+    </div></div>
 
-            <input class="button" name="SUBMIT" type="submit" value="WYŚLIJ">
-        </form>
-    </div>
+<!--FOOTER-->
 
-
-</section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
+
 </html>
