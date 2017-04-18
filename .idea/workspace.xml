@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b522399-6032-4ef7-97b6-eebf3a8a8696" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektpage/style.css" afterPath="$PROJECT_DIR$/projektpage/style.css" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projektpage/css/RC.Style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projektpage/css/styleat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projektpage/images/Bootstrap.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projektpage/images/flag_background.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektpage/css/style.css" afterPath="$PROJECT_DIR$/projektpage/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektpage/index.html" afterPath="$PROJECT_DIR$/projektpage/index.html" />
+>>>>>>> origin/master
     </list>
     <list id="f5c00116-3097-4e27-b33f-f1ad70f1be37" name="dodane dwie sekcje (cherry picked from commit 1797ccf)" comment="połączono z Adrianem&#10;(cherry picked from commit 1797ccf)" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,6 +31,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projektpage/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="322">
               <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
               <folding />
@@ -34,6 +44,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
               <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+=======
+            <state relative-caret-position="671">
+              <caret line="244" column="21" lean-forward="true" selection-start-line="244" selection-start-column="21" selection-end-line="244" selection-end-column="21" />
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
@@ -41,8 +55,23 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>od</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Adrian Tarasiuk &lt;adrian.tarasiuk23@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="efb40a30273a95f5dfd82c77397ad7db14a3a959" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +79,8 @@
         <option value="$USER_HOME$/nowy/jfddl1-3plus1/projektpage/style.css" />
         <option value="$USER_HOME$/nowy/jfddl1-3plus1/projektpage/index.html" />
         <option value="$PROJECT_DIR$/projektpage/.gitignore" />
+        <option value="$PROJECT_DIR$/projektpage/css/lwstyle.css" />
+        <option value="$PROJECT_DIR$/projektpage/css/style.css" />
         <option value="$PROJECT_DIR$/projektpage/index.html" />
         <option value="$PROJECT_DIR$/projektpage/style.css" />
       </list>
@@ -84,6 +115,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> origin/master
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,6 +193,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
+<<<<<<< HEAD
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
       <FILE-GROUP>
@@ -984,6 +1021,8 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
+=======
+>>>>>>> origin/master
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -1090,11 +1129,25 @@
       <workItem from="1491571309842" duration="4985000" />
       <workItem from="1491576315496" duration="415000" />
       <workItem from="1491576820017" duration="19000" />
+      <workItem from="1491920382982" duration="646000" />
+      <workItem from="1491921094966" duration="1608000" />
+      <workItem from="1491922723649" duration="35000" />
+      <workItem from="1491981608471" duration="1227000" />
+      <workItem from="1491983883944" duration="8584000" />
+      <workItem from="1491997463228" duration="10000" />
+      <workItem from="1492004439833" duration="1136000" />
+      <workItem from="1492067124923" duration="857000" />
+      <workItem from="1492068767405" duration="92000" />
+      <workItem from="1492508097528" duration="1568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="8204000" />
+=======
+    <option name="totallyTimeSpent" value="25194000" />
+>>>>>>> origin/master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1107,24 +1160,43 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20672162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2225745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34175533" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3303342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3084833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3303342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3084833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34175533" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> origin/master
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35129994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+>>>>>>> origin/master
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1159,27 +1231,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/index.html" />
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
-    <entry file="file://$PROJECT_DIR$/projektpage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
-    <entry file="file://$PROJECT_DIR$/projektpage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/index.html" />
     <entry file="file://$PROJECT_DIR$/../../nowy/jfddl1-3plus1/projektpage/style.css" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
@@ -1250,7 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="942">
           <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,6 +1340,7 @@
     <entry file="file://$USER_HOME$/nowy/jfddl1-3plus1/projektpage/index.html" />
     <entry file="file://$USER_HOME$/nowy/jfddl1-3plus1/projektpage/style.css" />
     <entry file="file://$PROJECT_DIR$/projektpage/RC.Style.css" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/projektpage/.gitignore" />
     <entry file="file://$PROJECT_DIR$/projektpage/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -1298,12 +1348,36 @@
           <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
           <folding />
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/projektpage/style.css" />
+    <entry file="file://$PROJECT_DIR$/projektpage/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/projektpage/css/styleat.css" />
+    <entry file="file://$PROJECT_DIR$/projektpage/css/RC.Style.css" />
+    <entry file="file://$PROJECT_DIR$/projektpage/css/lwstyle.css" />
+    <entry file="file://$PROJECT_DIR$/projektpage/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfddl1-3plus1/menu.html" />
+    <entry file="file://$PROJECT_DIR$/jfddl1-3plus1/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/projektpage/images/flag_background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+>>>>>>> origin/master
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projektpage/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="322">
           <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+=======
+        <state relative-caret-position="671">
+          <caret line="244" column="21" lean-forward="true" selection-start-line="244" selection-start-column="21" selection-end-line="244" selection-end-column="21" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
