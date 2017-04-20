@@ -1,110 +1,169 @@
-body {                                                               /*obrazek w tle */
-    background: #f39c12 url("images/auto_tlo.png") no-repeat top;
-    backgroung-size: cover;
-    margin: 0px;
+/*OUR TEAM CSS*/
+.img-responsive-info {
+    height: auto;
+}
+.img-circle-team {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+h1 {
     text-align: center;
-}
-header{
-    height: 900px;
-
-}
-.aside {
-    width: 40%;
-    float: left;
-    margin-top: 50px;
-    margin-left: 30px;
-
-
-}
-.white {
-    font-color: #FFA812;
-                       }
-.main{                                                 /* aside i main dzieli stronę na kontenery czy bloki*/
-    width: 60%;
-    float: right;
-    margin-top: 60px;
-    margin-right: 30px;
-
+    padding: 15px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    text-align: center;
+    margin-top:  15px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
 
-section {
-    height: 900px;
-    padding: 60px;
-    text-align: left;
+h3 {
+    color: darkgrey;
+    text-align: center;
     font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
-nav {                                                  /*blok nawigacji*/
-    margin: 0px;
-    background-color: #000000;
-    position: fixed;                                   /* trzyma na górze strony*/
-    display: block;
+
+p {
     text-align: center;
-    width: 100%;                                       /*szerokość menu na 100 % strony*/
+    font-family: 'Open Sans', sans-serif;
+}
+/*OUR TEAM CSS*/
+
+
+/*FOOTER CSS*/
+.footer {
+    background-color: #f39c12;
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-bottom: 2px;
+}
+/*FOOTER CSS*/
+
+/*START CSS*/
+h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
-ul {
-    list-style:none;
-    margin: 0;
-    padding: 0;
-    background-color: #333333;
+h5 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.buttons-lub {
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background-image {
+    background-image: url("car_background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.over-background {
+    background-color: rgba(243, 156, 18, 0.9);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
 
 }
 
+.section-start {
+    margin-bottom: 100px;
+}
+/*START CSS*/
+
+
+/*BUTTONS CSS*/
+.btn {
+    background-color: black;
+    border: none;
+    height: 10%;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.btn:hover {
+    background-color: #f39c12;
+}
+/*BUTTONS CSS*/
+
+
+/*PRODUCT INFO CSS*/
 li {
-    display:inline-block; /* robi  menu w poziomie*/
-    align:center;
-
+    list-style-type: none;
 }
 
-li a {
-    display: inline-block;
-    color: #ffffff;
+.glyphicon-ok {
+    color: #f39c12;
+}
+
+.product-info-header {
+    font-size: 20px;
+    margin-bottom: 20px;
     text-align: center;
-    padding: 20px;
-    text-decoration: none;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
-li a:hover {
-    background-color: #111111;
+.product-info-list {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
-   /*test ramki z tekstem, padding margin etc...
-.test {
+
+span1 {
+    color: #f39c12;
+}
+/*PRODUCT INFO CSS*/
+
+/*ABOUT US CSS*/
+.section-about-us {
+    margin-bottom: 50px;
+    background-color: #bdc3c7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-us-header {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/*ABOUT US CSS*/
+
+/*FORM CSS*/
+.form-control {
+    width: 50%;
+}
+
+label {
     width: 100%;
-    height: 100px;
-    padding: 20px;
-    border-color: red;
-    border-style: solid;
-       }
-                                                */
-
-
-.right{
-    text-align: right;
-}
-/*animation*/
-@keyframes changeColors {
-    0% { background-color: goldenrod;}
-    17% {background-color: white;}
-    30% { background-color: black;}
-    60%{ background-color: blue;}
-    78% {background-color: limegreen;}
-
- }
-.anime {
-    display: inline-block;
-    padding: 5px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 10px;
-    background-color: white;
-    animation: changeColors 6s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-
-}
-form{
-    padding-top: 70px;
+    text-align: center;
 }
 
+.form-background {
+    background-color: #bdc3c7;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*FORM CSS*/
