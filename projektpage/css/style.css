@@ -8,7 +8,6 @@ body{
 }
 
 .img-responsive-info {
-    max-width: 120px;
     height: auto;
 }
 .img-circle-team {
@@ -22,7 +21,7 @@ h1 {
     text-align: center;
     padding: 15px;
     margin: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -30,7 +29,7 @@ h2 {
     margin-top:  15px;
     margin-bottom: 0px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
@@ -39,43 +38,14 @@ h3 {
     font-size: 15px;
     margin-top: 0px;
     margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-
-span {
-    color: #f39c12;
-}
-
-.background-flag {
-    background-image: url("https://img.clipartfest.com/cd09b44cabef5c620e80791b601a4b40_race-flags-clip-art-clipart-checkered-flag_2012-909.png");
-    background-size:100%;
-    background-repeat: no-repeat;
-    padding: 0px;
-}
-
-.background-invert {
-    transform: rotate(180deg);
-}
-
-
-.section1 {
-    height: 100vh;
-    padding-top: 15vh;
-    text-align: center;
-}
-
-
-
-/*CONTACT CSS*/
-.form-background {
-    background-color: #f39c12;
-}
-
+/*OUR TEAM CSS*/
 
 
 /*FOOTER CSS*/
@@ -83,93 +53,124 @@ span {
     background-color: #f39c12;
     position: relative;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
     margin-bottom: 2px;
 }
 /*FOOTER CSS*/
 
-/*animation*/
-@keyframes changeColors {
-    0% { background-color: #0d1931;}
-    17% {background-color: deeppink}
-    30% { background-color: black;}
-    60%{ background-color: blue;}
-    78% {background-color: limegreen;}
-    100%{ background-color: lightgray;}
- }
-.anime {
-    display: inline-block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: limegreen;
-    animation: changeColors 6s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-
-}
-.list-of-pageFunction {
+/*START CSS*/
+h4 {
     text-align: center;
-    background-color: #333333;
-    color: white;
-    align-content: center;
-    border-radius: 20px;
-
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
-.midle {
-    width: 300px;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.text-central {
+h5 {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
-.text-central li {
-    list-style: none;
-    display: block;
-    text-align: left;
-    background-color: #333333;
+.buttons-lub {
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background-image {
+    background-image: url("../car_background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.over-background {
+    background-color: rgba(243, 156, 18, 0.9);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
 
 }
 
-.text-central li:before{
-    content: "*  ";
+.section-start {
+    margin-bottom: 100px;
+}
+/*START CSS*/
+
+
+/*BUTTONS CSS*/
+.btn {
+    background-color: black;
+    border: none;
+    height: 10%;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.btn:hover {
+    background-color: #f39c12;
+}
+/*BUTTONS CSS*/
+
+
+/*PRODUCT INFO CSS*/
+li {
+    list-style-type: none;
+}
+
+.glyphicon-ok {
     color: #f39c12;
 }
 
-
-.left-side {
-
-    height: 50px;
-    width: 50px;
-    padding-right: 3px;
-}
-
-.right-side {
-}
-
-
-.clear{
-    clear: both;
-}
-
-.product-cont {
-    display: flex;
-    justify-content: center;
-
-}
-
-.flex-box{
-    display: flex;
-}
-
-.down{
+.product-info-header {
+    font-size: 20px;
+    margin-bottom: 20px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.product-info-list {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+span1 {
+    color: #f39c12;
+}
+/*PRODUCT INFO CSS*/
+
+/*ABOUT US CSS*/
+.section-about-us {
+    margin-bottom: 50px;
+    background-color: #bdc3c7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-us-header {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/*ABOUT US CSS*/
+
+/*FORM CSS*/
+.form-control {
+    width: 50%;
+}
+
+label {
+
+}
+
+.form-background {
+    background-color: #bdc3c7;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*FORM CSS*/
