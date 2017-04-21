@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pl" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="pl" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>3plus1 projekt</title>
@@ -7,12 +8,20 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="favicons/favicon.ico" sizes="16x16">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset-top="60">
 
 <!--NAV BAR-->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar  navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
@@ -20,7 +29,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><span>3 PLUS 1</span></a>
+            <a class="navbar-brand" href="#">  <img class="img-responsive " align="left" src="images/logo_projekt-min.png"
+                                                    width="200  "
+                                                    alt="3 Plus 1">       </a>
             </div>
         <div class="collapse navbar-collapse" id="mynavbar-content">
             <ul class="nav navbar-nav navbar-right">
@@ -36,6 +47,7 @@
 <!--NAV BAR-->
 
 
+
 <!--START-->
 <a id="top"></a>
 <div class="background-image">
@@ -43,7 +55,7 @@
         <div class="row">
             <div class="col-md-5 col-xs-12 over-background">
                 <h4>Dealer kasuje Cię za części
-                <br>jak za złoto?</h4>
+                    <br>jak za złoto?</h4>
                 <h5><br>To nie potrwa długo!<br>Dzięki naszej aplikacji znajdziesz najlepsze części,<br>z najniższą ceną!<br></h5>
                 <a href="#about" class="btn btn-info btn-lg ">DWIEDZ SIĘ WIĘCEJ</a>
                 <a href="#contact" class="btn btn-info btn-lg">ZAPISZ SIĘ NA PREMIERĘ</a>
@@ -109,23 +121,23 @@
 
 <!--OUR TEAM-->
 <a id="team"></a>
-        <div class="container">
-            <div class="row">
-                <h1>NASZ <span1>ZESPÓŁ</span1></h1>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
-                    <h2>Adrian Tarasiuk</h2>
-                    <h3>Founder</h3>
-                    <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <img class="img-responsive center-block img-circle-team" src="images/rafalc.jpg"/>
-                    <h2>Rafał Ciesielczuk</h2>
-                    <h3>Founder</h3>
-                    <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <img class="img-responsive img-circle-team center-block" src="images/lukaszw.jpg"/>
+<div class="container">
+    <div class="row">
+        <h1>NASZ <span1>ZESPÓŁ</span1></h1>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
+            <h2>Adrian Tarasiuk</h2>
+            <h3>Founder</h3>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="img-responsive center-block img-circle-team" src="images/rafalc.jpg"/>
+            <h2>Rafał Ciesielczuk</h2>
+            <h3>Founder</h3>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="img-responsive img-circle-team center-block" src="images/lukaszw.jpg"/>
             <h2>Łukasz Walczyński</h2>
             <h3>Founder</h3>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
@@ -151,11 +163,11 @@
             <form role="form">
                 <div class="form-group">
                     <div class="form-group">
-                            <label for="exampleInputName">Podaj swoje imię i nazwisko</label>
-                            <input type="text" class="form-control center-block " id="exampleInputName" placeholder="Jan Kowalski">
+                        <label for="exampleInputName">Podaj swoje imię i nazwisko</label>
+                        <input type="text" class="form-control center-block " id="exampleInputName" placeholder="Jan Kowalski">
                     </div>
-                        <label for="exampleInputEmail1">Podaj swój adres e-mail</label>
-                        <input type="email" class="form-control center-block" id="exampleInputEmail1" placeholder="jan.kowalski@3plus1.pl">
+                    <label for="exampleInputEmail1">Podaj swój adres e-mail</label>
+                    <input type="email" class="form-control center-block" id="exampleInputEmail1" placeholder="jan.kowalski@3plus1.pl">
                 </div>
                 <button type="submit" class="btn btn-info center-block">WYŚLIJ!</button>
             </form>
@@ -166,14 +178,14 @@
 
 
 <!--FOOTER-->
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                Copyright 2017 by 3plus1
-            </div>
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            Copyright 2017 by 3plus1
         </div>
-    </footer>
     </div>
+</footer>
+</div>
 <!--FOOTER-->
 
 
