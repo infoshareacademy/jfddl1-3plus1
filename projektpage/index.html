@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pl" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="pl" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>3plus1 projekt</title>
@@ -7,12 +8,20 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="favicon.ico" sizes="16x16">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset-top="60">
 
 <!--NAV BAR-->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar  navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
@@ -20,7 +29,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><span>3 PLUS 1</span></a>
+            <a class="navbar-brand" href="#">  <img class="img-responsive " align="left" src="images/logo_projekt-min.png"
+                                                    width="200  "
+                                                    alt="3 Plus 1">       </a>
             </div>
         <div class="collapse navbar-collapse" id="mynavbar-content">
             <ul class="nav navbar-nav navbar-right">
@@ -59,24 +70,24 @@
 <div class="container section-about-us">
     <div class="row">
         <div class="col-xs-12 text-center about-us-header">
-            <h><span1>DLACZEGO MY?</span1></h><br>
-            <h>JESTEŚMY BEZKONKURENCYJNI POD KAŻDYM WZGLĘDEM!</h>
+            <h1><span>DLACZEGO MY?</span></h1><br>
+            <h2>JESTEŚMY BEZKONKURENCYJNI POD KAŻDYM WZGLĘDEM!</h2>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-4 col-xs-12">
             <img class="img-responsive center-block img-hover" src="images/piggy-bank.svg" height="150px" width="100px">
-            <p><span1>TANIO</span1></p>
+            <p><span>Tanio</span></p>
             <p>Masz gwarancję, że wyszukane częsci do Twojego auta będą miały najniższą cenę w całym internecie!</p>
         </div>
         <div class="col-lg-4 col-xs-12">
             <img class="img-responsive center-block" src="images/runer-silhouette-running-fast.svg" height="100px" width="100px">
-            <p><span1>SZYBKO</span1></p>
+            <p><span>SZYBKO</span></p>
             <p>Wybierasz interesujące Cię kryteria i w mgnieniu oka otrzymujesz listę ofert!</p>
         </div>
         <div class="col-lg-4 col-xs-12">
             <img class="img-responsive center-block" src="images/armchair.svg" height="100px" width="100px">
-            <p><span1>WYGODNIE</span1></p>
+            <p><span>WYGODNIE</span></p>
             <p>Gdziekolwiek jesteś, niezależnie czy używasz smartfona, tabletu lub laptopa masz dostęp do w pełni funkcjonalnej strony!</p>
         </div>
     </div>
@@ -89,8 +100,8 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 product-info-header">
-            <h><span1>MOŻLIWOŚCI NASZEJ APLIKACJI</span1></h><br>
-            <h>CO CI OFERUJEMY?</h>
+            <h1><span>MOŻLIWOŚCI NASZEJ APLIKACJI</span></h1><br>
+            <h2>CO CI OFERUJEMY?</h2>
         </div>
     </div>
     <div class="row">
@@ -111,7 +122,7 @@
 <a id="team"></a>
         <div class="container">
             <div class="row">
-                <h1>NASZ <span1>ZESPÓŁ</span1></h1>
+                <h1>NASZ <span>ZESPÓŁ</span></h1>
                 <div class="col-lg-3 col-md-6 col-xs-12">
                     <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
                     <h2>Adrian Tarasiuk</h2>
@@ -147,7 +158,7 @@
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2 form-background">
             <h2>ZAPISZ SIĘ NA PREMIERĘ!</h2>
-            <h3><span1>Powiadomimy Cię o starcie aplikacji.</span1></h3>
+            <h3><span>Powiadomimy Cię o starcie aplikacji.</span></h3>
             <form role="form">
                 <div class="form-group">
                     <div class="form-group">
@@ -173,7 +184,6 @@
             </div>
         </div>
     </footer>
-    </div>
 <!--FOOTER-->
 
 
