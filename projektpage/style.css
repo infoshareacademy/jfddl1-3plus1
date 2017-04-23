@@ -18,12 +18,41 @@ p {
 
 /*FOOTER CSS*/
 .footer {
-    background-color: #f39c12;
-    position: relative;
     text-align: center;
+    padding: 15px;
+    color: darkgray;
     font-family: 'Open Sans', sans-serif;
-    color: black;
-    margin-bottom: 2px;
+    background-image: url("footer_lodyas.png");
+}
+
+.footer-row1 {
+    padding: 15px;
+}
+
+.footer-row2 {
+    padding: 15px;
+}
+
+.glyphicon-heart {
+    color: #c0392b;
+}
+
+.glyphicon.glyphicon-one-dot:before {
+    content: "\25cf";
+    font-size: 1.5em;
+}
+
+.footer-p {
+    margin-bottom: 0;
+}
+
+a {
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f39c12;
 }
 /*FOOTER CSS*/
 
