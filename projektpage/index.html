@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>3plus1 projekt</title>
+?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
@@ -15,6 +16,17 @@
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg">
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" href="favicons/favicon.ico" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <style>
+        .wow:first-child {
+            visibility: hidden;
+        }
+    </style>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset-top="50">
@@ -74,20 +86,29 @@
     </div>
     <div class="row">
         <div class="col-lg-4 col-xs-12">
+            <section class="wow swing">
+
             <img class="img-responsive center-block img-hover" src="images/piggy-bank.svg" height="150px" width="100px">
+            </section>
             <p><span>TANIO</span></p>
             <p>Masz gwarancję, że wyszukane częsci do Twojego auta będą miały najniższą cenę w całym internecie!</p>
         </div>
+        <section class="section--blue wow bounceInLeft" data-wow-offset="300">
+
         <div class="col-lg-4 col-xs-12">
             <img class="img-responsive center-block" src="images/runer-silhouette-running-fast.svg" height="100px" width="100px">
             <p><span>SZYBKO</span></p>
             <p>Wybierasz interesujące Cię kryteria i w mgnieniu oka otrzymujesz listę ofert!</p>
         </div>
+        </section>
+        <section class="section--blue wow bounceIn" data-wow-offset="300">
+
         <div class="col-lg-4 col-xs-12">
             <img class="img-responsive center-block" src="images/armchair.svg" height="100px" width="100px">
             <p><span>WYGODNIE</span></p>
             <p>Gdziekolwiek jesteś, niezależnie czy używasz smartfona, tabletu lub laptopa masz dostęp do w pełni funkcjonalnej strony!</p>
         </div>
+        </section>
     </div>
 </div>
 <!--ABOUT US-->
@@ -122,25 +143,36 @@
             <div class="row">
                 <h2>NASZ <span>ZESPÓŁ</span></h2>
                 <div class="col-lg-3 col-md-6 col-xs-12">
+                    <section class="section--blue wow bounceIn" data-wow-offset="200">
                     <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
+                    </section>
                     <h4>Adrian Tarasiuk</h4>
                     <h5>Founder</h5>
                     <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-xs-12">
+                    <section class="section--blue wow bounceIn" data-wow-offset="300">
+
                     <img class="img-responsive center-block img-circle-team" src="images/rafalc.jpg"/>
+                    </section>
                     <h4>Rafał Ciesielczuk</h4>
                     <h5>Founder</h5>
                     <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-xs-12">
+                    <section class=" wow bounceIn" data-wow-offset="400">
+
                     <img class="img-responsive img-circle-team center-block" src="images/lukaszw.jpg"/>
+                    </section>
             <h4>Łukasz Walczyński</h4>
             <h5>Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12">
+            <section class=" wow bounceIn" data-wow-offset="600">
+
             <img class="img-responsive img-circle-team center-block" src="images/lukaszf.jpg"/>
+            </section>
             <h4>Łukasz Fijałkowski</h4>
             <h5>Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
@@ -204,6 +236,26 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/main.js"></script>
+<!--JS-->
+<!--JS-->
+<script src="dist/wow.js"></script>
+<script>
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100,
+            callback:     function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+        var section = document.createElement('section');
+        section.className = 'section--purple wow fadeInDown';
+        this.parentNode.insertBefore(section, this);
+    };
+</script>
 <!--JS-->
 
 </body>

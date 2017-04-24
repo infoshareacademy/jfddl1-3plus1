@@ -148,7 +148,11 @@
 
   50% {
     -webkit-transform: scale3d(1.05, 1.05, 1.05);
+<<<<<<< HEAD
     transform: scale3d(1.05, 1.05, 1.05);
+=======
+    transform: scale3d(1.02, 1.02, 1.02);
+>>>>>>> 24295ab813a6881a68a77d351cd59e2fc073e87d
   }
 
   to {
