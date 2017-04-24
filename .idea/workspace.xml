@@ -2,45 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b522399-6032-4ef7-97b6-eebf3a8a8696" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/dist/wow.min.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/car_background.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/dist/wow.min.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/images/Google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/images/Twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/images/Youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/images/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/css/libs/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/dist/wow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/dist/wow.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/dist/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/coffeescripts/helpers/SpecHelper.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/coffeescripts/wow-spec.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/javascripts/fixtures/custom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/javascripts/fixtures/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/javascripts/helpers/SpecHelper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/javascripts/libs/jasmine-jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/javascripts/libs/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/spec/javascripts/wow-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/src/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/WOW-master/src/WOW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/dist/wow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/dist/wow.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/dist/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projektpage/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektpage/css/animate.css" afterPath="$PROJECT_DIR$/projektpage/css/animate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projektpage/index.html" afterPath="$PROJECT_DIR$/projektpage/index.html" />
     </list>
     <list id="f5c00116-3097-4e27-b33f-f1ad70f1be37" name="dodane dwie sekcje (cherry picked from commit 1797ccf)" comment="połączono z Adrianem&#10;(cherry picked from commit 1797ccf)" />
@@ -60,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projektpage/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1684">
-              <caret line="141" column="31" lean-forward="false" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
+            <state relative-caret-position="-134">
+              <caret line="233" column="13" lean-forward="false" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -111,8 +72,8 @@
         <option value="$PROJECT_DIR$/projektpage/css/lwstyle.css" />
         <option value="$PROJECT_DIR$/projektpage/css/style.css" />
         <option value="$PROJECT_DIR$/projektpage/style.css" />
-        <option value="$PROJECT_DIR$/projektpage/index.html" />
         <option value="$PROJECT_DIR$/projektpage/css/animate.css" />
+        <option value="$PROJECT_DIR$/projektpage/index.html" />
       </list>
     </option>
   </component>
@@ -309,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30085000" />
+    <option name="totallyTimeSpent" value="31719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
@@ -523,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projektpage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1684">
-          <caret line="141" column="31" lean-forward="false" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
+        <state relative-caret-position="-134">
+          <caret line="233" column="13" lean-forward="false" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
           <folding />
         </state>
       </provider>
