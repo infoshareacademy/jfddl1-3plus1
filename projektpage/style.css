@@ -1,67 +1,4 @@
-/*OUR TEAM CSS*/
-.img-responsive-info {
-    height: auto;
-}
-.img-circle-team {
-    max-width: 200px;
-    height: auto;
-    border-radius: 50%;
-
-}
-
-p {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-}
-/*OUR TEAM CSS*/
-
-
-/*FOOTER CSS*/
-.footer {
-    text-align: center;
-    padding: 15px;
-    color: darkgray;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url("footer_lodyas.png");
-}
-
-.footer-row1 {
-    padding: 15px;
-}
-
-.footer-row2 {
-    padding: 15px;
-}
-
-.glyphicon-heart {
-    color: #c0392b;
-}
-
-.glyphicon.glyphicon-one-dot:before {
-    content: "\25cf";
-    font-size: 1.5em;
-}
-
-.footer-p {
-    margin-bottom: 0;
-}
-
-a {
-    color: darkgray;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #f39c12;
-}
-/*FOOTER CSS*/
-
 /*START CSS*/
-.buttons-lub {
-    margin: 10px;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .background-image {
     background-image: url("../projektpage/car_background-min.jpeg");
     background-size: cover;
@@ -69,7 +6,9 @@ a:hover {
 }
 
 .over-background {
-    background-color: rgba(243, 156, 18, 0.9);
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 15px;
     padding-top: 15px;
     margin-top: 15%;
@@ -81,23 +20,26 @@ a:hover {
 .section-start {
     margin-bottom: 100px;
 }
-/*START CSS*/
 
-
-/*BUTTONS CSS*/
-.btn {
-    background-color: black;
-    border: none;
-    height: 10%;
-    width: 60%;
+.h2-start {
     margin-bottom: 5%;
 }
+/*START CSS*/
 
-.btn:hover {
-    background-color: #f39c12;
+/*ABOUT US CSS*/
+.section-about-us {
+    margin-bottom: 50px;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Open Sans', sans-serif;
 }
-/*BUTTONS CSS*/
 
+.about-us-header {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/*ABOUT US CSS*/
 
 /*PRODUCT INFO CSS*/
 li {
@@ -123,18 +65,25 @@ li {
 
 /*PRODUCT INFO CSS*/
 
-/*ABOUT US CSS*/
-.section-about-us {
-    margin-bottom: 50px;
-    background-color: #bdc3c7;
+/*OUR TEAM CSS*/
+.img-responsive-info {
+    height: auto;
+}
+.img-circle-team {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 
-.about-us-header {
-    font-size: 20px;
-    margin-bottom: 20px;
+.text-yellow {
+    color: #f39c12;
 }
-/*ABOUT US CSS*/
+/*OUR TEAM CSS*/
 
 /*FORM CSS*/
 .form-control {
@@ -147,10 +96,77 @@ label {
 }
 
 .form-background {
-    background-color: #bdc3c7;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 15px;
     padding-top: 15px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 /*FORM CSS*/
+
+/*FOOTER CSS*/
+.footer {
+    text-align: center;
+    color: darkgray;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("footer_lodyas.png");
+}
+
+.footer-row1 {
+    padding: 15px;
+}
+
+.footer-row2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.social-icons {
+    padding-top: 15px;
+}
+
+.glyphicon-heart {
+    color: #c0392b;
+}
+
+.glyphicon.glyphicon-one-dot:before {
+    content: "\25cf";
+    font-size: 1.5em;
+}
+
+.footer-p {
+    margin-bottom: 0;
+}
+
+a {
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f39c12;
+}
+/*FOOTER CSS*/
+
+
+/*BUTTONS CSS*/
+.btn {
+    background-color: #373737;
+    border: none;
+    margin-bottom: 5%;
+    border-radius: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:focus{
+    outline: none;
+}
+
+.btn:hover {
+    background-color: black;
+}
+/*BUTTONS CSS*/

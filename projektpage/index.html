@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>3plus1 projekt</title>
-?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
@@ -32,7 +31,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset-top="50">
 
 <!--NAV BAR-->
-<nav class="navbar  navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="197">
+<nav class="navbar  navbar-default navbar-fixed-top navbar-inverse" data-spy="affix" data-offset-top="197">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
@@ -41,8 +40,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">  <img class="img-responsive " align="left" src="images/logo_projekt-min.png"
-                                                    width="200  " alt="3 Plus 1">       </a>
-            </div>
+                                                    width="200 px" alt="3 Plus 1">       </a>
+        </div>
         <div class="collapse navbar-collapse" id="mynavbar-content">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#top">Start</a></li>
@@ -65,9 +64,11 @@
             <div class="col-md-5 col-xs-12 over-background">
                 <h2>Dealer kasuje Cię za części
                 <br>jak za złoto?</h2>
-                <h2><br>To nie potrwa długo!<br>Dzięki naszej aplikacji znajdziesz najlepsze części,<br>z najniższą ceną!<br></h2>
-                <a href="#about" class="btn btn-info btn-lg ">DWIEDZ SIĘ WIĘCEJ</a>
-                <a href="#contact" class="btn btn-info btn-lg">ZAPISZ SIĘ NA PREMIERĘ</a>
+                <h2 class="h2-start"><br>To nie potrwa długo!<br>Dzięki naszej aplikacji znajdziesz najlepsze części,<br>z najniższą ceną!<br></h2>
+                <div>
+                    <a href="#about" class="btn btn-info btn-lg ">DWIEDZ SIĘ WIĘCEJ <span class="glyphicon glyphicon-info-sign"></span></a>
+                    <a href="#contact" class="btn btn-info btn-lg">ZAPISZ SIĘ NA PREMIERĘ <span class="glyphicon glyphicon-menu-right"></span></a>
+                </div>
             </div>
         </div>
     </div>
@@ -80,7 +81,7 @@
 <div class="container section-about-us">
     <div class="row">
         <div class="col-xs-12 text-center about-us-header">
-            <h2><span>DLACZEGO MY?</span></h2><br>
+            <h2><span>DLACZEGO MY?</span></h2>
             <h3>JESTEŚMY BEZKONKURENCYJNI POD KAŻDYM WZGLĘDEM!</h3>
         </div>
     </div>
@@ -119,7 +120,7 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 product-info-header">
-            <h2><span>MOŻLIWOŚCI NASZEJ APLIKACJI</span></h2><br>
+            <h2><span>MOŻLIWOŚCI NASZEJ APLIKACJI</span></h2>
             <h3>CO CI OFERUJEMY?</h3>
         </div>
     </div>
@@ -141,13 +142,13 @@
 <a id="team"></a>
         <div class="container">
             <div class="row">
-                <h2>NASZ <span>ZESPÓŁ</span></h2>
+                <h2 class="text-center">NASZ <span>ZESPÓŁ</span></h2>
                 <div class="col-lg-3 col-md-6 col-xs-12">
                     <section class="section--blue wow bounceIn" data-wow-offset="200">
                     <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
                     </section>
-                    <h4>Adrian Tarasiuk</h4>
-                    <h5>Founder</h5>
+                    <h4 class="text-center">Adrian Tarasiuk</h4>
+                    <h5 class="text-center">Founder</h5>
                     <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-xs-12">
@@ -155,8 +156,8 @@
 
                     <img class="img-responsive center-block img-circle-team" src="images/rafalc.jpg"/>
                     </section>
-                    <h4>Rafał Ciesielczuk</h4>
-                    <h5>Founder</h5>
+                    <h4 class="text-center">Rafał Ciesielczuk</h4>
+                    <h5 class="text-center">Founder</h5>
                     <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-xs-12">
@@ -164,8 +165,8 @@
 
                     <img class="img-responsive img-circle-team center-block" src="images/lukaszw.jpg"/>
                     </section>
-            <h4>Łukasz Walczyński</h4>
-            <h5>Founder</h5>
+            <h4 class="text-center">Łukasz Walczyński</h4>
+            <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12">
@@ -173,8 +174,8 @@
 
             <img class="img-responsive img-circle-team center-block" src="images/lukaszf.jpg"/>
             </section>
-            <h4>Łukasz Fijałkowski</h4>
-            <h5>Founder</h5>
+            <h4 class="text-center">Łukasz Fijałkowski</h4>
+            <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
     </div>
@@ -186,9 +187,9 @@
 <a id="contact"></a>
 <div class="container">
     <div class="row">
-        <div class="col-xs-8 col-xs-offset-2 form-background">
-            <h3>ZAPISZ SIĘ NA PREMIERĘ!</h3>
-            <h4><span>Powiadomimy Cię o starcie aplikacji.</span></h4>
+        <div class="col-lg-8 col-md-12 col-xs-12 col-lg-offset-2 form-background">
+            <h3 class="text-center">ZAPISZ SIĘ NA PREMIERĘ!</h3>
+            <h4 class="text-center"><span>Powiadomimy Cię o starcie aplikacji.</span></h4>
             <form role="form">
                 <div class="form-group">
                     <div class="form-group">
@@ -198,7 +199,7 @@
                         <label for="exampleInputEmail1">Podaj swój adres e-mail</label>
                         <input type="email" class="form-control center-block" id="exampleInputEmail1" placeholder="jan.kowalski@3plus1.pl">
                 </div>
-                <button type="submit" class="btn btn-info center-block">WYŚLIJ!</button>
+                <button type="submit" class="btn btn-info center-block">WYŚLIJ<span class="glyphicon glyphicon-menu-right"></span></button>
             </form>
         </div>
     </div>
@@ -218,6 +219,12 @@
                     <a href="">Polityka Cookies </a>
                     <span class="glyphicon glyphicon-one-dot"></span>
                     <a href="">Regulamin</a>
+                </div>
+                <div class="social-icons">
+                    <a target="_blank" href="https://pl-pl.facebook.com/"><img src="images/facebook_icon.png"></a>
+                    <a target="_blank" href="https://twitter.com/?lang=pl"><img src="images/twitter_icon.png"></a>
+                    <a target="_blank" href="https://plus.google.com/collections/featured"><img src="images/googleplus_icon.png"></a>
+                    <a target="_blank" href="https://www.youtube.com/?hl=pl&gl=PL"><img src="images/youtube_icon.png"></a>
                 </div>
             </div>
         </div>
