@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
 <!--NAV BAR-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -24,11 +23,11 @@
             </div>
         <div class="collapse navbar-collapse" id="mynavbar-content">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#top">Start</a></li>
-                <li><a href="#about">O nas</a></li>
-                <li><a href="#product">Produkt</a></li>
-                <li><a href="#team">Drużyna</a></li>
-                <li><a href="#contact">Zapis na premierę</a></li>
+                <li><a data-scroll href="#top">Start</a></li>
+                <li><a data-scroll href="#about">O nas</a></li>
+                <li><a data-scroll href="#product">Produkt</a></li>
+                <li><a data-scroll href="#team">Drużyna</a></li>
+                <li><a data-scroll href="#contact">Zapis na premierę</a></li>
             </ul>
         </div>
     </div>
@@ -46,8 +45,8 @@
                 <br>jak za złoto?</h2>
                 <h2 class="h2-start"><br>To nie potrwa długo!<br>Dzięki naszej aplikacji znajdziesz najlepsze części,<br>z najniższą ceną!<br></h2>
                 <div>
-                    <a href="#about" class="btn btn-info btn-lg ">DWIEDZ SIĘ WIĘCEJ <span class="glyphicon glyphicon-info-sign"></span></a>
-                    <a href="#contact" class="btn btn-info btn-lg">ZAPISZ SIĘ NA PREMIERĘ <span class="glyphicon glyphicon-menu-right"></span></a>
+                    <a data-scroll="" href="#about" class="btn btn-info btn-lg ">DWIEDZ SIĘ WIĘCEJ <span class="glyphicon glyphicon-info-sign"></span></a>
+                    <a data-scroll="" href="#contact" class="btn btn-info btn-lg">ZAPISZ SIĘ NA PREMIERĘ <span class="glyphicon glyphicon-menu-right"></span></a>
                 </div>
             </div>
         </div>
@@ -88,7 +87,7 @@
 
 <!--PRODUCT INFO-->
 <a id="product"></a>
-<div class="container">
+<div class="container section-product-info">
     <div class="row">
         <div class="col-xs-12 product-info-header">
             <h2><span>MOŻLIWOŚCI NASZEJ APLIKACJI</span></h2>
@@ -111,7 +110,7 @@
 
 <!--OUR TEAM-->
 <a id="team"></a>
-<div class="container">
+<div class="container section-our-team">
     <div class="row">
         <h2 class="text-center">NASZ <span class="text-yellow">ZESPÓŁ</span></h2>
         <div class="col-lg-3 col-md-6 col-xs-12">
@@ -145,7 +144,7 @@
 
 <!--CONTACT-->
 <a id="contact"></a>
-<div class="container">
+<div class="container section-contact">
     <div class="row">
         <div class="col-lg-8 col-md-12 col-xs-12 col-lg-offset-2 form-background">
             <h3 class="text-center">ZAPISZ SIĘ NA PREMIERĘ!</h3>
@@ -201,6 +200,17 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
+<script src="./smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+<script>
+    smoothScroll.init({
+        selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 1300, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 55, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        callback: function ( anchor, toggle ) {} // Function to run after scrolling
+    });
+</script>
 <!--JS-->
 
 </body>
