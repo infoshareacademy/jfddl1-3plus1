@@ -18,7 +18,7 @@
 }
 
 .section-start {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .h2-start {
@@ -26,9 +26,10 @@
 }
 /*START CSS*/
 
+
 /*ABOUT US CSS*/
 .section-about-us {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     background: #F2994A;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -42,6 +43,14 @@
 /*ABOUT US CSS*/
 
 /*PRODUCT INFO CSS*/
+.section-product-info {
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 li {
     list-style-type: none;
 }
@@ -66,6 +75,10 @@ li {
 /*PRODUCT INFO CSS*/
 
 /*OUR TEAM CSS*/
+.section-our-team {
+    margin-bottom: 50px;
+}
+
 .img-responsive-info {
     height: auto;
 }
@@ -85,7 +98,12 @@ p {
 }
 /*OUR TEAM CSS*/
 
+
 /*FORM CSS*/
+.section-contact {
+    margin-bottom: 40px;
+}
+
 .form-control {
     width: 50%;
 }
