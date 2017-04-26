@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 /*NAVBAR CSS*/
 .navbar{
     font-family: 'Merriweather Sans', sans-serif;
@@ -14,6 +18,15 @@
 #mynavbar-content ul li:hover {
     border-bottom: 3px solid #f39c12;
 }
+
+.navbar-inverse .navbar-nav > .active > a {
+    border-bottom: solid;
+    border-bottom-color: white;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
 /*NAVBAR CSS*/
 
 /*START CSS*/
@@ -26,7 +39,7 @@
 
 .over-background {
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top:18%;
     text-align: center;
     color: white;
     font-family: 'Merriweather Sans', sans-serif;
@@ -180,6 +193,12 @@ hr {
     border-width: 3px;
     max-width: 50px
 }
+
+.form-control:focus {
+    border-color: #f39c12;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 /*FORM CSS*/
 
 /*FOOTER CSS*/
@@ -243,5 +262,9 @@ button:focus{
 
 .btn:hover {
     background-color: black;
+}
+
+.btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+    background-color: transparent;
 }
 /*BUTTONS CSS*/
