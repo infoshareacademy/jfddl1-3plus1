@@ -24,6 +24,7 @@ body {
     border-bottom-color: white;
     background-color: transparent;
 }
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: transparent;
 }
@@ -31,7 +32,7 @@ body {
 
 /*START CSS*/
 .background-image {
-    background-image: url("images/background_image_optimized.jpg");
+    background-image: url("images/background_image-min.jpeg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -117,6 +118,7 @@ li {
 .img-responsive-info {
     height: auto;
 }
+
 .img-circle-team {
     max-width: 200px;
     height: auto;
@@ -244,6 +246,11 @@ a:hover {
     text-decoration: none;
     color: #f39c12;
 }
+
+a:hover, a:focus {
+    color: #f39c12;
+    text-decoration: none;
+}
 /*FOOTER CSS*/
 
 /*BUTTONS CSS*/
@@ -260,15 +267,34 @@ button:focus{
     outline: none;
 }
 
+.btn-info:active:focus {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-info:active {
+    background-color: black;
+    border-color: black;
+}
+
 .btn:hover {
     background-color: black;
 }
 
 .btn-info:focus, .btn-info.focus {
     background-color: black;
+    border-color: black;
 }
 
 .btn-info:active:hover {
     background-color: black;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:focus, .btn:active:focus {
+    outline: none;
 }
 /*BUTTONS CSS*/
