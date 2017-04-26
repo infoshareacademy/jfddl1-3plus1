@@ -1,54 +1,81 @@
+/*NAVBAR CSS*/
+.navbar{
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #333333;
+}
+
+#mynavbar-content ul li {
+    border-bottom: 3px solid #333333;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+#mynavbar-content ul li:hover {
+    border-bottom: 3px solid #f39c12;
+}
+/*NAVBAR CSS*/
+
 /*START CSS*/
 .background-image {
-    background-image: url("../projektpage/car_background-min.jpeg");
+    background-image: url("images/background_image_optimized.jpg");
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .over-background {
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-top: 15%;
-    margin-bottom: 15%;
     text-align: center;
-
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
-.section-start {
-    margin-bottom: 40px;
-}
-
-.h2-start {
-    margin-bottom: 5%;
+.p-start {
+    font-size: 20px;
 }
 /*START CSS*/
 
-
 /*ABOUT US CSS*/
 .section-about-us {
-    margin-bottom: 40px;
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .about-us-header {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+.glyphicon-fast-forward {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: #f39c12;
+}
+
+.glyphicon-piggy-bank {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: #f39c12;
+}
+
+.glyphicon-phone {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: #f39c12;
+}
 /*ABOUT US CSS*/
 
 /*PRODUCT INFO CSS*/
 .section-product-info {
-    margin-bottom: 40px;
     padding-bottom: 15px;
-    background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #F5F5F5;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 li {
@@ -63,20 +90,17 @@ li {
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .product-info-list {
     font-size: 20px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
-
 /*PRODUCT INFO CSS*/
 
 /*OUR TEAM CSS*/
 .section-our-team {
-    margin-bottom: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .img-responsive-info {
@@ -90,7 +114,15 @@ li {
 
 p {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+}
+
+.section-our-team h4 {
+    margin-bottom: 0;
+}
+
+.section-our-team h5 {
+    margin-top: 0;
+    color: darkgray;
 }
 
 .text-yellow {
@@ -98,14 +130,19 @@ p {
 }
 /*OUR TEAM CSS*/
 
-
 /*FORM CSS*/
 .section-contact {
     margin-bottom: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+input .form-control {
+    border: 1px solid #eee;
 }
 
 .form-control {
     width: 50%;
+    border-radius: 0;
 }
 
 label {
@@ -113,14 +150,37 @@ label {
     text-align: center;
 }
 
-.form-background {
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 15px;
-    padding-top: 15px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.contact-right-container {
+    border: 1px solid #eee;
+    border-left-width: 0;
+    background-color: #F5F5F5;
+    max-height: 100%;
+}
+
+.contact-right-container ul {
+    padding-left: 15px;
+}
+
+.contact-left-container {
+    border: 1px solid #eee;
+}
+
+.glyphicon-envelope {
+    color: #f39c12;
+}
+
+.glyphicon-map-marker {
+    color: #f39c12;
+}
+
+.glyphicon-earphone {
+    color: #f39c12;
+}
+
+hr {
+    border-color: #f39c12;
+    border-width: 3px;
+    max-width: 50px
 }
 /*FORM CSS*/
 
@@ -128,8 +188,8 @@ label {
 .footer {
     text-align: center;
     color: darkgray;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url("footer_lodyas.png");
+    background-image: url("images/footer_lodyas.png");
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .footer-row1 {
@@ -169,10 +229,9 @@ a:hover {
 }
 /*FOOTER CSS*/
 
-
 /*BUTTONS CSS*/
 .btn {
-    background-color: #373737;
+    background-color: #f39c12;
     border: none;
     margin-bottom: 5%;
     border-radius: 0;
