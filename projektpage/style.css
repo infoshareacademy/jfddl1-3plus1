@@ -37,7 +37,7 @@
 }
 /*START CSS*/
 
-/*ABOUT US CSS*/
+/*APP INFO*/
 .section-about-us {
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -67,9 +67,7 @@
     font-size: 4em;
     color: #f39c12;
 }
-/*ABOUT US CSS*/
 
-/*PRODUCT INFO CSS*/
 .section-product-info {
     padding-bottom: 15px;
     background-color: #F5F5F5;
@@ -96,7 +94,7 @@ li {
     font-size: 20px;
     text-align: center;
 }
-/*PRODUCT INFO CSS*/
+/*APP INFO*/
 
 /*OUR TEAM CSS*/
 .section-our-team {
