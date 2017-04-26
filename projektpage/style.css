@@ -264,7 +264,11 @@ button:focus{
     background-color: black;
 }
 
-.btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
-    background-color: transparent;
+.btn-info:focus, .btn-info.focus {
+    background-color: black;
+}
+
+.btn-info:active:hover {
+    background-color: black;
 }
 /*BUTTONS CSS*/
