@@ -10,9 +10,7 @@ body {
 
 #mynavbar-content ul li {
     border-bottom: 3px solid #333333;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s linear;
 }
 
 #mynavbar-content ul li:hover {
@@ -27,6 +25,14 @@ body {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: transparent;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+.navbar .navbar-default{
+    background-image: url("images/footer_lodyas.png");
 }
 /*NAVBAR CSS*/
 
@@ -54,6 +60,7 @@ body {
 /*APP INFO*/
 .section-about-us {
     font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 20px;
 }
 
 .about-us-header {
@@ -84,10 +91,11 @@ body {
 
 .section-product-info {
     padding-bottom: 15px;
-    background-color: #F5F5F5;
+    background-color: #353535;
     margin-left: 0;
     margin-right: 0;
     font-family: 'Merriweather Sans', sans-serif;
+    color: white;
 }
 
 li {
@@ -105,10 +113,56 @@ li {
 }
 
 .product-info-list {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
+
+.remove-padding {
+    padding-left: 0;
+}
 /*APP INFO*/
+
+/*MORE INFO CSS*/
+.moreinfo-section {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.tab-content {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    border: none;
+    border-bottom: 3px solid #f39c12;
+}
+
+.nav-tabs.nav-justified > li > a {
+    border-bottom: none;
+}
+.moreinfo-background {
+    background-color: #353535;
+    color: white;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus P {
+    background-color: #323232;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-tabs a:hover, a:focus {
+    color: white;
+}
+/*MORE INFO CSS*/
 
 /*OUR TEAM CSS*/
 .section-our-team {
@@ -171,7 +225,7 @@ label {
 }
 
 .contact-right-container ul {
-    padding-left: 15px;
+    padding-left: 0;
 }
 
 .contact-left-container {
@@ -180,14 +234,23 @@ label {
 
 .glyphicon-envelope {
     color: #f39c12;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
 }
 
 .glyphicon-map-marker {
     color: #f39c12;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
 }
 
 .glyphicon-earphone {
     color: #f39c12;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
 }
 
 hr {
@@ -200,6 +263,15 @@ hr {
     border-color: #f39c12;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.infolist-margin {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact-header p {
+    font-size: 20px;
 }
 /*FORM CSS*/
 
