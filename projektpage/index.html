@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <script src="scrollreveal-master/dist/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        if (sr.isSupported()) {
+            document.documentElement.classList.add('sr');
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#333333",
+                        "text": "#ffffff",
+                        "font-style": "Merriweather Sans, sans-serif"
+                    },
+                    "button": {
+                        "background": "#f39c12",
+                        "text": "#ffffff",
+                        "font-style": "Merriweather Sans, sans-serif"
+                    }
+                },
+                "content": {
+                    "message": "Strona nie zbiera w sposób automatyczny żadnych informacji, z wyjątkiem informacji zawartych w plikach cookies.",
+                    "dismiss": "ZGADZAM SIĘ",
+                    "link": "Dowiedz się więcej"
+                }
+            })});
+    </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
 <!--NAV BAR-->
@@ -18,7 +49,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><span>3 PLUS 1</span></a>
+            <a class="navbar-brand"><span class="text-yellow">3 PLUS 1</span></a>
             </div>
         <div class="collapse navbar-collapse" id="mynavbar-content">
             <ul class="nav navbar-nav navbar-right">
@@ -67,10 +98,10 @@
     <div class="row">
         <div class="col-xs-12 product-info-list">
             <ul class="remove-padding">
-                <li><p class="box"><span class="glyphicon glyphicon-ok"></span> Szybkie wyszukiwanie według określonych kryteriów</p></li>
-                <li><p class="box"><span class="glyphicon glyphicon-ok"></span> Wyświetlanie szczegółowych wynikow na stronie</p></li>
-                <li><p class="box"><span class="glyphicon glyphicon-ok"></span> Możliwość bezpośredniego złożenia zamówienia</p></li>
-                <li><p class="box"><span class="glyphicon glyphicon-ok"></span> Formularz do bezpośredniego kontaktu e-mail</p></li>
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Szybkie wyszukiwanie według określonych kryteriów</p></li>
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Wyświetlanie szczegółowych wynikow na stronie</p></li>
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Możliwość bezpośredniego złożenia zamówienia</p></li>
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Formularz do bezpośredniego kontaktu e-mail</p></li>
             </ul>
             <p>Premiera już 1.06.2017</p>
         </div>
@@ -129,10 +160,16 @@
     <div id="tab2" class="tab-pane fade">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-6 col-xs-12 hidden-md hidden-lg">
+                    <img class="img-responsive" src="https://bytesizemoments.com/wp-content/uploads/2014/04/placeholder3.png">
+                </div>
+                <div class="col-md-6 col-xs-12 hidden-md hidden-lg">
                     <p class="text-left">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się chce rozbierać. Woźny pas mu jego puchar i tuż przy boku rzuciwszy wzrok jak obłok, gdy z flinty strzelać albo bierze. Nawet stary Dąbrowskiego usłyszeć mazurek. biegał po francusku zwała karyjulka. Zamiast lokajów w tej komnacie mieszkanie kobiéce? Któż by stary i niewesoły rozbierał myślą wszystkie procesu wypadki i trudno zaradzić wolał z flinty strzelać albo bierze. Nawet stary stojący zegar kurantowy w tylu brzemienna imionami rycerzy, od stołu przywoławszy dwie ławy umiała się strony obie Tadeusz Telimenie, lecz patrzył wzrokiem śmiałym, w takim nigdy nie był przystojny, czuł choroby zaród.</p>
                 </div>
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-6 col-xs-12 hidden-xs hidden-sm">
+                    <p class="text-left">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się chce rozbierać. Woźny pas mu jego puchar i tuż przy boku rzuciwszy wzrok jak obłok, gdy z flinty strzelać albo bierze. Nawet stary Dąbrowskiego usłyszeć mazurek. biegał po francusku zwała karyjulka. Zamiast lokajów w tej komnacie mieszkanie kobiéce? Któż by stary i niewesoły rozbierał myślą wszystkie procesu wypadki i trudno zaradzić wolał z flinty strzelać albo bierze. Nawet stary stojący zegar kurantowy w tylu brzemienna imionami rycerzy, od stołu przywoławszy dwie ławy umiała się strony obie Tadeusz Telimenie, lecz patrzył wzrokiem śmiałym, w takim nigdy nie był przystojny, czuł choroby zaród.</p>
+                </div>
+                <div class="col-md-6 col-xs-12 hidden-xs hidden-sm">
                     <img class="img-responsive" src="https://bytesizemoments.com/wp-content/uploads/2014/04/placeholder3.png">
                 </div>
             </div>
@@ -159,27 +196,27 @@
     <div class="row">
         <h3 class="text-center">NASZ <span class="text-yellow">ZESPÓŁ</span></h3>
         <hr>
-        <p>Poznaj wspaniały zespół tworzący naszą aplikację.</p>
+        <p class="ourteam-header-fontsize">Poznaj wspaniały zespół tworzący naszą aplikację.</p>
         <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="center-block img-responsive img-circle-team box" src="images/adriant.jpg"/>
+            <img class="center-block img-responsive img-circle-team foo" src="images/adriant.jpg"/>
             <h4 class="text-center">Adrian Tarasiuk</h4>
             <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="img-responsive center-block img-circle-team box" src="images/rafalc.jpg"/>
+            <img class="img-responsive center-block img-circle-team foo" src="images/rafalc.jpg"/>
             <h4 class="text-center">Rafał Ciesielczuk</h4>
             <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="img-responsive img-circle-team center-block box" src="images/lukaszw.jpg"/>
+            <img class="img-responsive img-circle-team center-block foo" src="images/lukaszw.jpg"/>
             <h4 class="text-center">Łukasz Walczyński</h4>
             <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12 ">
-            <img class="img-responsive img-circle-team center-block box" src="images/lukaszf.jpg"/>
+            <img class="img-responsive img-circle-team center-block foo" src="images/lukaszf.jpg"/>
             <h4 class="text-center">Łukasz Fijałkowski</h4>
             <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
@@ -206,10 +243,10 @@
                 <div class="form-group">
                     <div class="form-group">
                         <label for="exampleInputName">Podaj swoje imię i nazwisko</label>
-                        <input type="text" class="form-control center-block " id="exampleInputName" placeholder="Jan Kowalski">
+                        <input type="text" name="name" class="form-control center-block" id="exampleInputName" placeholder="Jan Kowalski">
                     </div>
                         <label for="exampleInputEmail1">Podaj swój adres e-mail</label>
-                        <input type="email" class="form-control center-block" id="exampleInputEmail1" placeholder="jan.kowalski@3plus1.com.pl">
+                        <input type="email" name="_replyto" class="form-control center-block" id="exampleInputEmail1" placeholder="jan.kowalski@3plus1.com.pl">
                 </div>
                 <button type="submit" class="btn btn-info center-block">WYŚLIJ<span class="glyphicon glyphicon-menu-right"></span></button>
             </form>
@@ -280,11 +317,14 @@
         callback: function ( anchor, toggle ) {} // Function to run after scrolling
     });
 </script>
-<script src="scrollreveal-master/dist/scrollreveal.min.js"></script>
+<script>sr.reveal('.fooReveal', { container: '.fooContainer' });</script>
 <script>window.sr = ScrollReveal({ reset: true });</script>
 <script>
-    window.sr=ScrollReveal({ duration: 1000, origin: 'left' });
+    window.sr = ScrollReveal({ duration: 1000, origin: 'left;' });
     sr.reveal('.box', 500);
+</script>
+<script>
+    sr.reveal('.foo', { duration: 3000, origin: 'bottom'});
 </script>
 <!--JS-->
 </body>

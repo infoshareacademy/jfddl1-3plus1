@@ -2,6 +2,8 @@ body {
     position: relative;
 }
 
+.sr .boxReveal { visibility: hidden; }
+
 /*NAVBAR CSS*/
 .navbar{
     font-family: 'Merriweather Sans', sans-serif;
@@ -46,7 +48,7 @@ body {
 
 .over-background {
     padding-bottom: 15px;
-    padding-top:18%;
+    padding-top: 18%;
     text-align: center;
     color: white;
     font-family: 'Merriweather Sans', sans-serif;
@@ -194,6 +196,10 @@ p {
 
 .text-yellow {
     color: #f39c12;
+}
+
+.ourteam-header-fontsize {
+    font-size: 20px;
 }
 /*OUR TEAM CSS*/
 
