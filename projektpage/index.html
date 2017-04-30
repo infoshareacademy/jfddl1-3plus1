@@ -3,16 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>3plus1 projekt</title>
-?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <script src="scrollreveal-master/dist/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        if (sr.isSupported()) {
+            document.documentElement.classList.add('sr');
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#333333",
+                        "text": "#ffffff",
+                        "font-style": "Merriweather Sans, sans-serif"
+                    },
+                    "button": {
+                        "background": "#f39c12",
+                        "text": "#ffffff",
+                        "font-style": "Merriweather Sans, sans-serif"
+                    }
+                },
+                "content": {
+                    "message": "Strona nie zbiera w sposób automatyczny żadnych informacji, z wyjątkiem informacji zawartych w plikach cookies.",
+                    "dismiss": "ZGADZAM SIĘ",
+                    "link": "Dowiedz się więcej"
+                }
+            })});
+    </script>
 </head>
-
-
-<body>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+<!--NAV BAR-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -21,284 +49,283 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand"><span>3 PLUS 1</span></a>
+            <a class="navbar-brand"><span class="text-yellow">3 PLUS 1</span></a>
             </div>
         <div class="collapse navbar-collapse" id="mynavbar-content">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#top">Start</a></li>
-                <li><a href="#about">O nas</a></li>
-                <li><a href="#product">Produkt</a></li>
-                <li><a href="#team">Drużyna</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+                <li><a data-scroll href="#start">Start</a></li>
+                <li><a data-scroll href="#app">Aplikacja</a></li>
+                <li><a data-scroll href="#moreinfo">Więcej info</a></li>
+                <li><a data-scroll href="#team">Zespół</a></li>
+                <li><a data-scroll href="#contact">Kontakt</a></li>
             </ul>
         </div>
     </div>
 </nav>
+<!--NAV BAR-->
+
 <!--START-->
-<a id="top"></a>
-<div class="section1">
-    <div class="container">
-    <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <h1><span> Delear kasuje Cię za części</span>
-            <br>jak za<span> złoto?</span></h1>
-            <h1>Tylko u nas - części do <span> twojej bryki w niskich cenach.</span></h1>
-            <a href="#contact" class="btn btn-info btn-lg btn-block">SPRAWDŻ TERAZ!</a>        </div>
-        <div class="col-lg-6 col-xs-12">
-            <img class="img-responsive" src="images/auto_tlo.png"/>
-        </div>
-    </div>
-    </div>
-</div>
-<!--START-->
-<div class="container-fluid">
-<div class="section1 background-flag background-invert img-responsive"></div>
-
-</div>
-
-<!--PRODUCT INFO-->
-<a id="about"></a>
-    <div class="section1">
-    <div class="container">
-
+<a id="start"></a>
+<div class="background-image">
+    <div class="container section-start">
         <div class="row">
-            <div class="col-xs-12">
-
-                <div class="panel-group" id="accordion">
-                    <!-- TYTUł -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h1 class="panel-title">
-                                <a data-toggle="collapse" class="h1" data-parent="#accordion">
-                                    DLACZEGO MY? DLACZEGO WARTO KUPOWAĆ U NAS?</a>
-                            </h1>
-                        </div>
-
-                    </div>
-                    <!-- Panel 1. -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                    <span>  GWARANCJA NAJNIŻSZEJ CENY!</span>                           </a>
-                            </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Dajemy gwarancję najniższych cen. Jeśli znajdziesz tańszą ofertę i kupisz u nas zwracamy 105% różnicy.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Panel 2. -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                    DOŚWIADCZENIE W SPRZEDAŻY!
-
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                10 lat doświadczenia - 10 lat na rynku, ponad 700 tys. zrealizowanych zamówień,
-                                99% zadowolonych klientów – taki wynik zobowiązuje.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Panel 3. -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                                    <span>  FACHOWE DORADZTWO!</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse4" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Fachowe doradztwo - 11 pasjonatów motoryzacji, jednocześnie mechaników z zawodu.
-                                W sumie 90 lat doświadczenia! Rocznie zaspokajamy ponad 80 tys. potrzeb naszych klientów.
-                                Nie zwlekaj – zapytaj profesjonalistów. Dobierzemy idealny produkt dla Ciebie!
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Panel 4. -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-                                    BEZPIECZEŃSTWO!
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse5" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="text-left">Gwarantowane bezpieczeństwo - Bezpieczeństwo na najwyższym poziomie.
-                                    Pakowanie przesyłek mamy opanowane do perfekcji. </p>
-                                <p class="text-left">Oceny 9.9/10 za dostawę oraz liczne nagrody są tego dowodem.
-                                    Wybierz bezpieczeństwo potwierdzone przez klientów!
-                                    Wszystkie produkty pakujemy bezpiecznie, stosujemy najlepszy wypełniacz przesyłek FATPAK,
-                                    każda przesyłka jest starannie  pakowana  aby w transporcie nic im się nie stało.
-                                    Jako jedynie na rynku pakujemy towar w dodatkowe pudełko zbiorcze wypelnione wypełniaczem przesyłek.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Panel 5. -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
-                                    <span> DARMOWA WYMIANA TOWARU!</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse6" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                <p class="text-left">Darmowa wymiana towaru- jeśli będziesz chciał wymienić towar na inny lub się pomyliłeś wymienimy towar na nasz koszt.</p>
-                                <p class="text-left">U nas dostaniesz <span>14 dniowy termin</span> na zwrot towaru.</p>
-                                <p class="text-left">Pamiętaj tego nie dostaniesz w zwykłym sklepie motoryzacyjnym czy u mechanika.</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-xs-12 over-background pagination-centered">
+                <h1>TWOJA NAJLEPSZA WYSZUKIWARKA CZĘŚCI SAMOCHODOWYCH</h1>
+                <hr>
+                <p class="p-start">Dealer kasuje Cię za części
+                <br>jak za złoto?</p>
+                <p class="p-start"><br>To nie potrwa długo!<br>Dzięki naszej aplikacji znajdziesz najlepsze części,<br>z najniższą ceną!<br></p>
+                <div>
+                    <a data-scroll="" href="#app" class="btn btn-info btn-lg ">DWIEDZ SIĘ WIĘCEJ <span class="glyphicon glyphicon-info-sign"></span></a>
+                    <a data-scroll="" href="#contact" class="btn btn-info btn-lg">ZAPISZ SIĘ NA PREMIERĘ <span class="glyphicon glyphicon-menu-right"></span></a>
                 </div>
-
-
             </div>
         </div>
-
     </div>
-    </div>
-<div class="section1 background-flag img-responsive "></div>
+</div>
+<!--START-->
 
-
-    <a id="product"></a>
-    <div class="section1">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-xs-push-3 text-center">
-                <img src="images/Ikona_informacja.png" class="img-responsive-info">
-            </div></div>
-        <div class="row">
-            <div class="col-xs-6 col-xs-push-3 text-center">
-
-            <h2>PRODUKT</h2>
-        <i> Informacje o stronie</i>
-    <h2><span> &</span></h2>
-
-    <ul class="list-group btn-group-lg text-left">
-
-        <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-success"> Wyszukiwanie według określonych kryteriów </li>
-        <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-info"> Wyświetlenie wynikow na stronie</li>
-        <li class="glyphicon glyphicon-ok list-group-item  btn-lg list-group-item-warning"> Możliwość złożenia zamówienia</li>
-        <li class="glyphicon glyphicon-ok list-group-item btn-lg list-group-item-danger"> Formularz do bezpośredniego kontaktu e-mail</li>
-
-    </ul>
-                <h2><span> &</span></h2>
-
-   </div>
-
-    </div>
+<!--APP INFO-->
+<a id="app"></a>
+<div class="container-fluid section-product-info">
+    <div class="row">
+        <div class="col-xs-12 product-info-header">
+            <h3>MOŻLIWOŚCI <span class="text-yellow">APLIKACJI</span></h3>
+            <hr>
+            <p>Czego możesz się spodziewać?</p>
         </div>
     </div>
-<div class="section1 background-flag img-responsive background-invert"></div>
+    <div class="row">
+        <div class="col-xs-12 product-info-list">
+            <ul class="remove-padding">
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Szybkie wyszukiwanie według określonych kryteriów</p></li>
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Wyświetlanie szczegółowych wynikow na stronie</p></li>
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Możliwość bezpośredniego złożenia zamówienia</p></li>
+                <li><p class="box boxReveal"><span class="glyphicon glyphicon-ok"></span> Formularz do bezpośredniego kontaktu e-mail</p></li>
+            </ul>
+            <p>Premiera już 1.06.2017</p>
+        </div>
+    </div>
+</div>
+
+<div class="container section-about-us">
+    <div class="row">
+        <div class="col-xs-12 text-center about-us-header">
+            <h3>DLACZEGO WARTO SKORZYSTAĆ Z NASZEJ <span class="text-yellow">APLIKACJI</span>?</h3>
+            <hr>
+            <p>Jesteśmy bezkonkurencyjni pod każdym względem!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-xs-12">
+            <span class="glyphicon glyphicon-piggy-bank"></span>
+            <h4 class="text-center">Tanio</h4>
+            <p>Masz gwarancję, że wyszukane częsci do Twojego auta będą miały najniższą cenę w całym internecie!</p>
+        </div>
+        <div class="col-lg-4 col-xs-12">
+            <span class="glyphicon glyphicon-fast-forward"></span>
+            <h4 class="text-center">Szybko</h4>
+            <p>Wybierasz interesujące Cię kryteria i w mgnieniu oka otrzymujesz listę ofert!</p>
+        </div>
+        <div class="col-lg-4 col-xs-12">
+            <span class="glyphicon glyphicon-phone"></span>
+            <h4 class="text-center">Wygodnie</h4>
+            <p>Gdziekolwiek jesteś, niezależnie czy używasz smartfona, tabletu lub laptopa masz dostęp do w pełni funkcjonalnej strony!</p>
+        </div>
+    </div>
+</div>
+<!--APP INFO-->
+
+<!--MORE INFO-->
+<a id="moreinfo"> </a>
+<div class="moreinfo-background moreinfo-section">
+<ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#tab1">Więcej info 1</a></li>
+    <li><a data-toggle="tab" href="#tab2">Więcej info 2</a></li>
+    <li><a data-toggle="tab" href="#tab3">Więcej info 3</a></li>
+</ul>
+<div class="tab-content">
+    <div id="tab1" class="tab-pane fade in active">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <img class="img-responsive" src="https://bytesizemoments.com/wp-content/uploads/2014/04/placeholder3.png">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <p class="text-left">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się chce rozbierać. Woźny pas mu jego puchar i tuż przy boku rzuciwszy wzrok jak obłok, gdy z flinty strzelać albo bierze. Nawet stary Dąbrowskiego usłyszeć mazurek. biegał po francusku zwała karyjulka. Zamiast lokajów w tej komnacie mieszkanie kobiéce? Któż by stary i niewesoły rozbierał myślą wszystkie procesu wypadki i trudno zaradzić wolał z flinty strzelać albo bierze. Nawet stary stojący zegar kurantowy w tylu brzemienna imionami rycerzy, od stołu przywoławszy dwie ławy umiała się strony obie Tadeusz Telimenie, lecz patrzył wzrokiem śmiałym, w takim nigdy nie był przystojny, czuł choroby zaród.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tab2" class="tab-pane fade">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12 hidden-md hidden-lg">
+                    <img class="img-responsive" src="https://bytesizemoments.com/wp-content/uploads/2014/04/placeholder3.png">
+                </div>
+                <div class="col-md-6 col-xs-12 hidden-md hidden-lg">
+                    <p class="text-left">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się chce rozbierać. Woźny pas mu jego puchar i tuż przy boku rzuciwszy wzrok jak obłok, gdy z flinty strzelać albo bierze. Nawet stary Dąbrowskiego usłyszeć mazurek. biegał po francusku zwała karyjulka. Zamiast lokajów w tej komnacie mieszkanie kobiéce? Któż by stary i niewesoły rozbierał myślą wszystkie procesu wypadki i trudno zaradzić wolał z flinty strzelać albo bierze. Nawet stary stojący zegar kurantowy w tylu brzemienna imionami rycerzy, od stołu przywoławszy dwie ławy umiała się strony obie Tadeusz Telimenie, lecz patrzył wzrokiem śmiałym, w takim nigdy nie był przystojny, czuł choroby zaród.</p>
+                </div>
+                <div class="col-md-6 col-xs-12 hidden-xs hidden-sm">
+                    <p class="text-left">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się chce rozbierać. Woźny pas mu jego puchar i tuż przy boku rzuciwszy wzrok jak obłok, gdy z flinty strzelać albo bierze. Nawet stary Dąbrowskiego usłyszeć mazurek. biegał po francusku zwała karyjulka. Zamiast lokajów w tej komnacie mieszkanie kobiéce? Któż by stary i niewesoły rozbierał myślą wszystkie procesu wypadki i trudno zaradzić wolał z flinty strzelać albo bierze. Nawet stary stojący zegar kurantowy w tylu brzemienna imionami rycerzy, od stołu przywoławszy dwie ławy umiała się strony obie Tadeusz Telimenie, lecz patrzył wzrokiem śmiałym, w takim nigdy nie był przystojny, czuł choroby zaród.</p>
+                </div>
+                <div class="col-md-6 col-xs-12 hidden-xs hidden-sm">
+                    <img class="img-responsive" src="https://bytesizemoments.com/wp-content/uploads/2014/04/placeholder3.png">
+                </div>
+            </div>
+        </div>    </div>
+    <div id="tab3" class="tab-pane fade">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <img class="img-responsive" src="https://bytesizemoments.com/wp-content/uploads/2014/04/placeholder3.png">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <p class="text-left">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się chce rozbierać. Woźny pas mu jego puchar i tuż przy boku rzuciwszy wzrok jak obłok, gdy z flinty strzelać albo bierze. Nawet stary Dąbrowskiego usłyszeć mazurek. biegał po francusku zwała karyjulka. Zamiast lokajów w tej komnacie mieszkanie kobiéce? Któż by stary i niewesoły rozbierał myślą wszystkie procesu wypadki i trudno zaradzić wolał z flinty strzelać albo bierze. Nawet stary stojący zegar kurantowy w tylu brzemienna imionami rycerzy, od stołu przywoławszy dwie ławy umiała się strony obie Tadeusz Telimenie, lecz patrzył wzrokiem śmiałym, w takim nigdy nie był przystojny, czuł choroby zaród.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--MORE INFO-->
 
 <!--OUR TEAM-->
 <a id="team"></a>
-
-    <div class="section1">
-
-        <div class="container">
-            <div class="row">
-                <h1>NASZ <span>ZESPÓŁ</span></h1>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <img class="center-block img-responsive img-circle-team" src="images/adriant.jpg"/>
-                    <h2>Adrian Tarasiuk</h2>
-                    <h3>Founder</h3>
-                    <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <img class="img-responsive center-block img-circle-team" src="images/rafalc.jpg"/>
-                    <h2>Rafał Ciesielczuk</h2>
-                    <h3>Founder</h3>
-                    <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <img class="img-responsive img-circle-team center-block" src="images/lukaszw.jpg"/>
-            <h2>Łukasz Walczyński</h2>
-            <h3>Founder</h3>
+<div class="container section-our-team">
+    <div class="row">
+        <h3 class="text-center">NASZ <span class="text-yellow">ZESPÓŁ</span></h3>
+        <hr>
+        <p class="ourteam-header-fontsize">Poznaj wspaniały zespół tworzący naszą aplikację.</p>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="center-block img-responsive img-circle-team foo" src="images/adriant.jpg"/>
+            <h4 class="text-center">Adrian Tarasiuk</h4>
+            <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12">
-            <img class="img-responsive img-circle-team center-block" src="images/lukaszf.jpg"/>
-            <h2>Łukasz Fijałkowski</h2>
-            <h3>Founder</h3>
+            <img class="img-responsive center-block img-circle-team foo" src="images/rafalc.jpg"/>
+            <h4 class="text-center">Rafał Ciesielczuk</h4>
+            <h5 class="text-center">Founder</h5>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+            <img class="img-responsive img-circle-team center-block foo" src="images/lukaszw.jpg"/>
+            <h4 class="text-center">Łukasz Walczyński</h4>
+            <h5 class="text-center">Founder</h5>
+            <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12 ">
+            <img class="img-responsive img-circle-team center-block foo" src="images/lukaszf.jpg"/>
+            <h4 class="text-center">Łukasz Fijałkowski</h4>
+            <h5 class="text-center">Founder</h5>
             <p>Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Ile cię stracił. Dziś człowieka nie miał wielką.</p>
         </div>
     </div>
 </div>
-</div>
 <!--OUR TEAM-->
-<div class="col-xs-12 ">
-    <div class="section1 background-flag img-responsive"></div>
-            </div>
 
 <!--CONTACT-->
 <a id="contact"></a>
-
-<div class="section1">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-8 col-xs-offset-2">
-                <h2>Newsletter</h2>
-                <h3> Pierwszy się dowiesz zanim wystartujemy</h3>
-                <form role="form">
+<div class="container section-contact">
+    <div class="row">
+        <div class="col-xs-12 text-center contact-header">
+            <h3><span class="text-yellow">KONTAKT</span></h3>
+            <hr>
+            <p>Nie zwlekaj, zapisz się na premierę lub skontaktuj się z nami jeśli masz jakieś pytania.</p>
+        </div>
+    </div>
+    <div class="row items-container">
+        <div class="col-sm-8 col-xs-12 contact-left-container item">
+            <h3 class="text-center"><span class="text-yellow">ZAPISZ SIĘ NA PREMIERĘ!</span></h3>
+            <h4 class="text-center">Powiadomimy Cię o starcie aplikacji.</h4>
+            <form role="form" action="https://formspree.io/3plus1.lublin@gmail.com" method="POST">
+                <div class="form-group">
                     <div class="form-group">
-                        <div class="form-group">
-                            <label for="exampleInputName">Podaj Imię</label>
-                            <input type="text" class="form-control" id="exampleInputName" placeholder="Twoje Imię">
-                        </div>
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Podaj adres Email">
+                        <label for="exampleInputName">Podaj swoje imię i nazwisko</label>
+                        <input type="text" name="name" class="form-control center-block" id="exampleInputName" placeholder="Jan Kowalski">
                     </div>
-
-                   <div class="checkbox">
-                        <label>
-                            <input type="checkbox"> Zgadzam się !
-                        </label>
-                    </div>
-                    <button type="submit" class="btn btn-default">Wyślij!</button>
-                </form>
-
-            </div></div>
-<div class="row">
-    <div class="col-xs-12">
-                        <h3>Linki do społecznościówek</h3>
-                    </div>
-</div>   </div>
-
- <!--CONTACT-->
+                        <label for="exampleInputEmail1">Podaj swój adres e-mail</label>
+                        <input type="email" name="_replyto" class="form-control center-block" id="exampleInputEmail1" placeholder="jan.kowalski@3plus1.com.pl">
+                </div>
+                <button type="submit" class="btn btn-info center-block">WYŚLIJ<span class="glyphicon glyphicon-menu-right"></span></button>
+            </form>
+        </div>
+        <div class="col-sm-4 col-xs-12 contact-right-container item">
+            <h3 class="text-center">Informacje kontaktowe</h3>
+            <ul>
+                <li class="infolist-margin"><span class="glyphicon glyphicon-map-marker"></span><p>Droga Męczenników Majdanka 181, 20-325 Lublin</p></li>
+                <li class="infolist-margin"><span class="glyphicon glyphicon-envelope"></span> <a href="">3plus1.lublin@gmail.com</a></li>
+                <li class="infolist-margin"><span class="glyphicon glyphicon-earphone"></span> <a href="">+48 005 006 007</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--CONTACT-->
 
 <!--FOOTER-->
-
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                Copyright 2017 by 3plus1
+<footer>
+    <div class="container-fluid footer">
+        <div class="row footer-row1">
+            <div class="col-xs-12 center-block">
+                <div>
+                    <a data-scroll href="#start"><img class="img-responsive center-block" src="images/logo_projekt.png" alt="LOGO" width="101" height="39"></a>
+                    <a href="">Polityka prywatności</a>
+                    <span class="glyphicon glyphicon-one-dot"></span>
+                    <a href="">Polityka Cookies </a>
+                    <span class="glyphicon glyphicon-one-dot"></span>
+                    <a href="">Regulamin</a>
+                </div>
+                <div class="social-icons">
+                    <a target="_blank" href="https://pl-pl.facebook.com/"><img src="images/facebook_icon.png"></a>
+                    <a target="_blank" href="https://twitter.com/?lang=pl"><img src="images/twitter_icon.png"></a>
+                    <a target="_blank" href="https://plus.google.com/collections/featured"><img src="images/googleplus_icon.png"></a>
+                    <a target="_blank" href="https://www.youtube.com/?hl=pl&gl=PL"><img src="images/youtube_icon.png"></a>
+                </div>
             </div>
         </div>
-    </footer>
+        <div class="row footer-row2">
+            <p class="footer-p">Stworzone z <span class="glyphicon glyphicon-heart"></span> przez 3plus1.</p>
+            <p class="footer-p"><span class="glyphicon glyphicon-copyright-mark"></span>2017 Wszelkie prawa zastrzeżone.</p>
+        </div>
     </div>
-
+</footer>
 <!--FOOTER-->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.js"></script>
-        <script src="js/jquery-3.2.1.min.js"></script>
+<!--JS-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.matchHeight.js" type="text/javascript"></script>
+<script>
+    var byRow = $('body').hasClass('test-rows');
+
+    $('.items-container').each(function() {
+    $(this).children('.item').matchHeight({
+        byRow: byRow
+    });
+});
+</script>
+<script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
-
+<script src="./smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+<script>
+    smoothScroll.init({
+        selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 1300, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 57, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        callback: function ( anchor, toggle ) {} // Function to run after scrolling
+    });
+</script>
+<script>sr.reveal('.fooReveal', { container: '.fooContainer' });</script>
+<script>window.sr = ScrollReveal({ reset: true });</script>
+<script>
+    window.sr = ScrollReveal({ duration: 1000, origin: 'left;' });
+    sr.reveal('.box', 500);
+</script>
+<script>
+    sr.reveal('.foo', { duration: 3000, origin: 'bottom'});
+</script>
+<!--JS-->
 </body>
-
 </html>
