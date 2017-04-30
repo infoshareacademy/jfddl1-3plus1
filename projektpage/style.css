@@ -1,54 +1,103 @@
+body {
+    position: relative;
+}
+
+.sr .boxReveal { visibility: hidden; }
+
+/*NAVBAR CSS*/
+.navbar{
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #333333;
+}
+
+#mynavbar-content ul li {
+    border-bottom: 3px solid #333333;
+    transition: all 0.2s linear;
+}
+
+#mynavbar-content ul li:hover {
+    border-bottom: 3px solid #f39c12;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    border-bottom: solid;
+    border-bottom-color: white;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+.navbar .navbar-default{
+    background-image: url("images/footer_lodyas.png");
+}
+/*NAVBAR CSS*/
+
 /*START CSS*/
 .background-image {
-    background-image: url("../projektpage/car_background-min.jpeg");
+    background-image: url("images/background_image-min.jpeg");
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .over-background {
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 15px;
-    padding-top: 15px;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    padding-top: 18%;
     text-align: center;
-
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
-.section-start {
-    margin-bottom: 40px;
-}
-
-.h2-start {
-    margin-bottom: 5%;
+.p-start {
+    font-size: 20px;
 }
 /*START CSS*/
 
-
-/*ABOUT US CSS*/
+/*APP INFO*/
 .section-about-us {
-    margin-bottom: 40px;
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 20px;
 }
 
 .about-us-header {
     font-size: 20px;
     margin-bottom: 20px;
 }
-/*ABOUT US CSS*/
 
-/*PRODUCT INFO CSS*/
+.glyphicon-fast-forward {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: #f39c12;
+}
+
+.glyphicon-piggy-bank {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: #f39c12;
+}
+
+.glyphicon-phone {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    color: #f39c12;
+}
+
 .section-product-info {
-    margin-bottom: 40px;
     padding-bottom: 15px;
-    background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #353535;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
 }
 
 li {
@@ -63,25 +112,69 @@ li {
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .product-info-list {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
 }
 
-/*PRODUCT INFO CSS*/
+.remove-padding {
+    padding-left: 0;
+}
+/*APP INFO*/
+
+/*MORE INFO CSS*/
+.moreinfo-section {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.tab-content {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    border: none;
+    border-bottom: 3px solid #f39c12;
+}
+
+.nav-tabs.nav-justified > li > a {
+    border-bottom: none;
+}
+.moreinfo-background {
+    background-color: #353535;
+    color: white;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus P {
+    background-color: #323232;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-tabs a:hover, a:focus {
+    color: white;
+}
+/*MORE INFO CSS*/
 
 /*OUR TEAM CSS*/
 .section-our-team {
-    margin-bottom: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .img-responsive-info {
     height: auto;
 }
+
 .img-circle-team {
     max-width: 200px;
     height: auto;
@@ -90,22 +183,39 @@ li {
 
 p {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+}
+
+.section-our-team h4 {
+    margin-bottom: 0;
+}
+
+.section-our-team h5 {
+    margin-top: 0;
+    color: darkgray;
 }
 
 .text-yellow {
     color: #f39c12;
 }
-/*OUR TEAM CSS*/
 
+.ourteam-header-fontsize {
+    font-size: 20px;
+}
+/*OUR TEAM CSS*/
 
 /*FORM CSS*/
 .section-contact {
     margin-bottom: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+input .form-control {
+    border: 1px solid #eee;
 }
 
 .form-control {
     width: 50%;
+    border-radius: 0;
 }
 
 label {
@@ -113,14 +223,61 @@ label {
     text-align: center;
 }
 
-.form-background {
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 15px;
-    padding-top: 15px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.contact-right-container {
+    border: 1px solid #eee;
+    border-left-width: 0;
+    background-color: #F5F5F5;
+    max-height: 100%;
+}
+
+.contact-right-container ul {
+    padding-left: 0;
+}
+
+.contact-left-container {
+    border: 1px solid #eee;
+}
+
+.glyphicon-envelope {
+    color: #f39c12;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.glyphicon-map-marker {
+    color: #f39c12;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.glyphicon-earphone {
+    color: #f39c12;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+hr {
+    border-color: #f39c12;
+    border-width: 3px;
+    max-width: 50px
+}
+
+.form-control:focus {
+    border-color: #f39c12;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.infolist-margin {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact-header p {
+    font-size: 20px;
 }
 /*FORM CSS*/
 
@@ -130,8 +287,8 @@ label {
 .footer {
     text-align: center;
     color: darkgray;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url("footer_lodyas.png");
+    background-image: url("images/footer_lodyas.png");
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .footer-row1 {
@@ -169,12 +326,16 @@ a:hover {
     text-decoration: none;
     color: #f39c12;
 }
-/*FOOTER CSS*/
 
+a:hover, a:focus {
+    color: #f39c12;
+    text-decoration: none;
+}
+/*FOOTER CSS*/
 
 /*BUTTONS CSS*/
 .btn {
-    background-color: #373737;
+    background-color: #f39c12;
     border: none;
     margin-bottom: 5%;
     border-radius: 0;
@@ -186,7 +347,34 @@ button:focus{
     outline: none;
 }
 
+.btn-info:active:focus {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-info:active {
+    background-color: black;
+    border-color: black;
+}
+
 .btn:hover {
     background-color: black;
+}
+
+.btn-info:focus, .btn-info.focus {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-info:active:hover {
+    background-color: black;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:focus, .btn:active:focus {
+    outline: none;
 }
 /*BUTTONS CSS*/
