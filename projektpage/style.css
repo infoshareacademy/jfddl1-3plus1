@@ -1,5 +1,6 @@
 body {
     position: relative;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .sr .boxReveal { visibility: hidden; }

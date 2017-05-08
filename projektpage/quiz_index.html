@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="quiz_style.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+
 </head>
 <body>
 
@@ -14,9 +15,10 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <div class="btn btn-primary">Strona główna</div>
+                <a href="index.html#game"><div class="btn btn-primary">POWRÓT</div></a>
                 <h1>SAMOCHODOWY <span class="text-yellow">QUIZ</span></h1>
                 <hr>
+                <span id="wynik"></span>
             </div>
         </div>
     </div>
@@ -28,34 +30,53 @@
         <div class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"        aria-controls="collapseExample">Zasady gry</div>
         <div class="collapse" id="collapseExample">
             <div class="card card-block container-fluid">
-                <p>Czeka Cię 10 pytań. Na każde możesz odpowiedzieć klikając na jeden z zółtych przycisków.<br> Tylko 1 odpowiedź jest poprawna! Za dobrą odpowiedź dostajesz 2 punkty, a za złą -1 punkt.<br>Do dzieła!</p>
+                <p>Czeka Cię 10 pytań. Na każde możesz odpowiedzieć klikając na jeden z zółtych przycisków.<br> Tylko 1 odpowiedź jest poprawna! Za dobrą odpowiedź dostajesz 1 punkt, a za złą 0 punktów.<br>Do dzieła!</p>
             </div>
         </div>
     </div>
 </div>
 <!--HOW TO PLAY-->
 
+
+
+
+
+
 <!--QUIZ-->
 <div class="container-fluid quiz-background">
     <div class="row">
-        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-            <img class="img-responsive" src="https://bytesizemoments.com/wp-content/uploads/2014/04/placeholder.png">
-        </div>
-        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 text-center">
-            <h4>Jaka jest marka auta widocznego na zdjęciu?</h4>
-            <div class="row">
-                <div class="btn btn-primary">odpowiedz 1</div>
-                <div class="btn btn-primary">odpowiedz 2</div>
-            </div>
-            <div class="row">
-                <div class="btn btn-primary">odpowiedz 3</div>
-                <div class="btn btn-primary">odpowiedz 4</div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--QUIZ-->
 
+        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 ">
+            <div id="zdjecia" ></div>
+        </div>
+
+
+        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 text-center">
+            <span id="pytanie"><h4></h4></span>
+            <div id="buttons" class="row">
+                <div>
+                    <div class="row">
+                        <div class="btn btn-primary Odpowiedz" ><span id="choice1" ></span></div>
+                        <div class="btn btn-primary Odpowiedz"><span id="choice2" ></span></div>
+                    </div>
+                    <div class="row">
+                        <div class="btn btn-primary Odpowiedz"><span id="choice3" ></span></div>
+                        <div class="btn btn-primary Odpowiedz"><span id="choice4" ></span></div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>
+                        <span id="progress"></span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--QUIZ-->
 <!--FOOTER-->
 <footer>
     <div class="container-fluid footer">
@@ -85,7 +106,9 @@
 </footer>
 <!--FOOTER-->
 
+
 <script src="js/jquery-3.2.1.js"></script>
+    <script src="JSQuiz.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
 </body>
