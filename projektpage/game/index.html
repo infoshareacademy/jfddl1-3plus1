@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Gra za email</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+
+    <!-- My Updated Styles -->
+    <link href="css/updated-styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <![endif]-->
+</head>
+
+<body id="color-body">
+
+    <div class="container-fluid">
+
+        <div class="row text-center">
+                  <h1>Jaki to samochód ?</h1>
+                     <p>Sprawdź czy dobrze znasz się na samochodach!?</p>
+            <a href="../../projektpage/index.html#game" class="btn btn-default">Wróć do strony głównej</a>
+
+
+        </div>
+        <!--HOW TO PLAY-->
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div style="margin-top: 0.5%" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"        aria-controls="collapseExample">Zasady gry</div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-block container-fluid">
+                        <p>Czeka Cię 10 pytań. Na każde możesz odpowiedzieć klikając na jeden z zółtych przycisków.<br> Tylko 1 odpowiedź jest poprawna! Za dobrą odpowiedź dostajesz 1 punkt, a za złą 0 punktów.<br>Do dzieła!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--HOW TO PLAY-->
+      <!--  <div class="row text-center">       z
+            <div class="btn btn-info" id="countDown">
+                <div id="minutes" style="float:left"><h1>00</h1></div>
+                <div style="float:left">:</div>
+                <div id="seconds" style="float:left"><h1>00</h1></div>
+            </div>
+            <div id="button">
+            <div id="aftercount"  style="display:none"></div>
+        </div></div>         -->
+        <div class="row" id="image-container">
+
+            <div class="container-fluid quiz-image img-grow">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-4 col-xs-12 text-center">
+                        <h3 id="qNo"></h3>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-center">
+                        <h3>Powinno być:</h3> <h4 id="answer"></h4>
+                    </div>
+                </div>
+
+                <img src="" id="Pic" class="img-responsive img-rounded">
+
+            </div>
+        </div>
+
+        <br>
+
+
+        <div class="row">
+            <div class="container-fluid">
+                <ul id="image-options" class="list-inline text-center">
+                    <li class="space-list">
+                        <button id="opt1" class="btn btn-info" onclick="NextQuestion('1')">Choice 1</button>
+                    </li>
+                    <li class="space-list">
+                        <button id="opt2" class="btn btn-info" onclick="NextQuestion('2')">Choice 2</button>
+                    </li>
+                    <li class="space-list">
+                        <button id="opt3" class="btn btn-info" onclick="NextQuestion('3')">Choice 3</button>
+                    </li>
+                    <li>
+                        <button id="opt4" class="btn btn-info" onclick="NextQuestion('4')">Choice 4</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid block-center">
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span>
+
+                                </button>
+                                <h2 class="modal-title text-center" id="myModalLabel">Koniec!</h2>
+
+                            </div>
+                            <div class="container-fluid text-center">
+                                <h4 class="modal-body"></h4>
+                                <br>
+                                <h5 class="modal-body-2"></h5>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="../index.html#game" class="btn btn-default">Wróć do strony głównej</a>                                <button type="button" class="btn btn-reset" onClick="history.go(0)">Zagraj od nowa</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--
+        <div class="container-fluid block-center">
+            <div class="modal fade" id="myModalTime" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="vertical-alignment-helper">
+                    <div class="modal-dialog vertical-align-center">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                </button>
+                                <h2 class="modal-title text-center" id="myModalLabelTime">Czas minął</h2>
+
+                            </div>
+                            <div class="container-fluid text-center">
+                                <h4 class="modal-body"> Dostałeś -1 punk, jeśli chesz odpowiedzoeć na kolejne pytania wciśnij "OK.</h4>
+                                <br>
+                                <h5 class="modal-body-2-time"></h5>
+                            </div>
+                            <div id="button1">
+                                <button type="button" class="btn btn-info" data-dismiss="modal">  OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    -->
+        </div>
+
+        <footer>
+            <div class="row container-fluid">
+                <div class="text-center">
+
+                    <h5 class="h1-small">3 Plus 1<sup>2017</sup></h5>
+
+
+                  </div>
+            </div>
+        </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/quiz.js"></script>
+
+
+</body>
+
+</html>
