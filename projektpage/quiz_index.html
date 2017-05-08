@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3plus1 QUIZ</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="quiz_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <a href="index.html#game"><div class="btn btn-primary">POWRÓT</div></a>
+                <h1>SAMOCHODOWY <span class="text-yellow">QUIZ</span></h1>
+                <hr>
+                <span id="wynik"></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--HOW TO PLAY-->
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"        aria-controls="collapseExample">Zasady gry</div>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-block container-fluid">
+                <p>Czeka Cię 10 pytań. Na każde możesz odpowiedzieć klikając na jeden z zółtych przycisków.<br> Tylko 1 odpowiedź jest poprawna! Za dobrą odpowiedź dostajesz 1 punkt, a za złą 0 punktów.<br>Do dzieła!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--HOW TO PLAY-->
+
+
+
+
+
+
+<!--QUIZ-->
+<div class="container-fluid quiz-background">
+    <div class="row">
+
+        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 ">
+            <div id="zdjecia" ></div>
+        </div>
+
+
+        <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 text-center">
+            <span id="pytanie"><h4></h4></span>
+            <div id="buttons" class="row">
+                <div>
+                    <div class="row">
+                        <div class="btn btn-primary Odpowiedz" ><span id="choice1" ></span></div>
+                        <div class="btn btn-primary Odpowiedz"><span id="choice2" ></span></div>
+                    </div>
+                    <div class="row">
+                        <div class="btn btn-primary Odpowiedz"><span id="choice3" ></span></div>
+                        <div class="btn btn-primary Odpowiedz"><span id="choice4" ></span></div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>
+                        <span id="progress"></span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--QUIZ-->
+<!--FOOTER-->
+<footer>
+    <div class="container-fluid footer">
+        <div class="row footer-row1">
+            <div class="col-xs-12 center-block">
+                <div>
+                    <a><img class="img-responsive center-block" src="images/logo_projekt.png" alt="LOGO" width="101" height="39"></a>
+                    <a href="">Polityka prywatności</a>
+                    <span class="glyphicon glyphicon-one-dot"></span>
+                    <a href="">Polityka Cookies </a>
+                    <span class="glyphicon glyphicon-one-dot"></span>
+                    <a href="">Regulamin</a>
+                </div>
+                <div class="social-icons">
+                    <a target="_blank" href="https://pl-pl.facebook.com/"><img src="images/facebook_icon.png"></a>
+                    <a target="_blank" href="https://twitter.com/?lang=pl"><img src="images/twitter_icon.png"></a>
+                    <a target="_blank" href="https://plus.google.com/collections/featured"><img src="images/googleplus_icon.png"></a>
+                    <a target="_blank" href="https://www.youtube.com/?hl=pl&gl=PL"><img src="images/youtube_icon.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-row2">
+            <p class="footer-p">Stworzone z <span class="glyphicon glyphicon-heart"></span> przez 3plus1.</p>
+            <p class="footer-p"><span class="glyphicon glyphicon-copyright-mark"></span>2017 Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </div>
+</footer>
+<!--FOOTER-->
+
+
+<script src="js/jquery-3.2.1.js"></script>
+    <script src="JSQuiz.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

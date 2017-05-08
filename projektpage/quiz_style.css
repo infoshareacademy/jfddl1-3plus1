@@ -1,0 +1,90 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.quiz-background {
+    background-color: #353535;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    color: white;
+}
+
+hr {
+    border-color: #f39c12;
+    border-width: 3px;
+    max-width: 50px
+}
+
+.text-yellow {
+    color: #f39c12;
+}
+
+/*QUIZ BUTTONS*/
+.btn-primary {
+    background-color: #f39c12;
+    border: none;
+    border-radius: 0;
+    width: 150px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin: 10px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+/*QUIZ BUTTONS*/
+
+/*FOOTER CSS*/
+.footer {
+    text-align: center;
+    color: darkgray;
+    background-image: url("images/footer_lodyas.png");
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.footer-row1 {
+    padding: 15px;
+}
+
+.footer-row2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.social-icons {
+    padding-top: 15px;
+}
+
+.glyphicon-heart {
+    color: #c0392b;
+}
+
+.glyphicon.glyphicon-one-dot:before {
+    content: "\25cf";
+    font-size: 1.5em;
+}
+
+.footer-p {
+    margin-bottom: 0;
+}
+
+a {
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f39c12;
+}
+
+a:hover, a:focus {
+    color: #f39c12;
+    text-decoration: none;
+}
+/*FOOTER CSS*/
