@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Quiz</title>
+    <title>3plus1 - quiz</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
     <link href="css/updated-styles.css" rel="stylesheet">
@@ -14,22 +14,25 @@
 </head>
 <body id="color-body">
     <div class="container-fluid">
-        <div class="row text-center">
-                  <h1>Samochodowy quiz</h1>
-                     <p>Sprawdź swoją wiedzę!</p>
-            <a href="..//index.html#game" class="btn btn-default">Wróć do strony głównej</a>
+        <div class="row text-center intro-margin-bottom">
+            <h3>SAMOCHODOWY <span class="text-yellow">QUIZ</span></h3>
+            <hr>
+            <p>Czeka Cię 10 pytań. Wybierz jedną z czterech odpowiedzi dostępnych pod zdjęciem i sprawdź się!</p>
+            <a href="../index.html#game"><div class="btn btn-info play-button-margin">POWRÓT DO STRONY GŁÓWNEJ <span class="glyphicon glyphicon-menu-right"></span></div></a>
         </div>
         <div class="row" id="image-container">
             <div class="container-fluid quiz-image img-grow">
                 <div class="row">
                     <div class="col-md-6 col-sm-4 col-xs-12 text-center">
-                        <h3 id="qNo"></h3>
+                        <p id="qNo"></p>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-                        <h3>Prawidłowa odpowiedź:</h3> <h4 id="answer"></h4>
+                        <p>Prawidłowa odpowiedź: <span id="answer"></span></p>
                     </div>
                 </div>
-                <img src="" id="Pic" class="img-responsive img-rounded">
+                <div>
+                    <img src="" id="Pic" class="img-responsive img-rounded">
+                </div>
             </div>
         </div>
         <br>
@@ -57,19 +60,15 @@
                     <div class="modal-dialog vertical-align-center">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Zamknij</span>
-
-                                </button>
-                                <h2 class="modal-title text-center" id="myModalLabel">Koniec!</h2>
-
+                                <h4 class="modal-title text-center" id="myModalLabel">Koniec gry!</h4>
                             </div>
                             <div class="container-fluid text-center">
-                                <h4 class="modal-body"></h4>
-                                <br>
+                                <h5 class="modal-body"></h5>
                                 <h5 class="modal-body-2"></h5>
                             </div>
                             <div class="modal-footer">
-                                <a href="..//index.html#game" class="btn btn-default">Wróć do strony głównej</a>                                <button type="button" class="btn btn-reset" onClick="history.go(0)">Zagraj ponownie</button>
+                                <a href="../index.html#game"><div class="btn btn-info play-button-margin">POWRÓT DO STRONY GŁÓWNEJ <span class="glyphicon glyphicon-menu-right"></span></div></a>
+                                <button class="btn btn-info play-button-margin" onClick="history.go(0)">Zagraj ponownie <span class="glyphicon glyphicon-repeat"></span></button>
                             </div>
                         </div>
                     </div>
@@ -80,7 +79,7 @@
         <footer>
             <div class="row container-fluid">
                 <div class="text-center">
-                    <h5 class="h1-small">3Plus1 2017</h5>
+                    <p>Stworzone z <span class="glyphicon glyphicon-heart"></span> przez 3plus1.</p>
                   </div>
             </div>
         </footer>

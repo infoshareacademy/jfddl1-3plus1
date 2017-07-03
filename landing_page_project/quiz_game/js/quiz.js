@@ -34,9 +34,9 @@
         document.getElementById('answer').innerHTML = answer;
         if ((qNo < questions.length) && (response == correctAnswer)) {
             correct++;
-            points += 2;
+            points += 1;
         } else {
-            points -= 1;
+            points += 0;
         }
         qNo++;
         if (qNo < questions.length) {
@@ -77,13 +77,13 @@
             return ('Może te pytania są za proste?');
         }
         if (frac >= upperThreshold) {
-            return ("Dobra robota, Jesteś fanem motoryzacji!");
+            return ("Dobra robota, wyglądasz na fana motoryzacji!");
         }
     }
 
     function finishModal(correctScore, totalQuestions) {
         $('#myModal').modal('show');
-        $(".modal-body").text('Odpowiedziałeś prawidłowo na:  ' + correctScore + ' z ' + totalQuestions + ' pytań i zdobyłeś: ' + points + ' z możliwych ' + totalQuestions * 2 + ' punktów. ');
+        $(".modal-body").text('Odpowiedziałaś/eś prawidłowo na ' + correctScore + ' z ' + totalQuestions + ' pytań i zdobyłeś ' + points + ' z ' + totalQuestions + ' punktów. ');
         $(".modal-body-2").text(calculateOpinion(correctScore, totalQuestions));
 
         ev.preventDefault();

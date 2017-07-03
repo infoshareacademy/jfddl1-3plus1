@@ -1,3 +1,7 @@
+html,body{
+    height: 100%
+}
+
 #color-body {
     font-family: 'Merriweather Sans', sans-serif;
     background: #353535;
@@ -63,7 +67,6 @@ hr {
 .btn {
     background-color: #f39c12;
     border: none;
-    margin-bottom: 5%;
     border-radius: 0;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -184,4 +187,41 @@ a:hover {
 a:hover, a:focus {
     color: #f39c12;
     text-decoration: none;
+}
+
+.text-yellow {
+    color: #f39c12;
+}
+
+.glyphicon-heart {
+    color: #c0392b;
+}
+
+.intro-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.modal {
+    background: none;
+    -webkit-box-shadow: none;
+}
+
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: -webkit-center;
+}
+
+hr {
+    border-color: #f39c12;
+    border-width: 3px;
+    max-width: 50px
 }
