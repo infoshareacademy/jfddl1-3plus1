@@ -336,7 +336,6 @@ a:hover, a:focus {
 .btn {
     background-color: #f39c12;
     border: none;
-    margin-bottom: 5%;
     border-radius: 0;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -375,5 +374,13 @@ button:focus{
 
 .btn:focus, .btn:active:focus {
     outline: none;
+}
+
+.play-button-margin {
+    margin-bottom: 15px;
+}
+
+.send-button-margin {
+    margin-bottom: 20px;
 }
 /*BUTTONS CSS*/
