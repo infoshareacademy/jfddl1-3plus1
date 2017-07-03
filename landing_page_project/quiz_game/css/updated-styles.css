@@ -219,9 +219,3 @@ a:hover, a:focus {
     border-top: none;
     text-align: -webkit-center;
 }
-
-hr {
-    border-color: #f39c12;
-    border-width: 3px;
-    max-width: 50px
-}
